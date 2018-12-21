@@ -1,32 +1,32 @@
 ==================================================================
-https://keybase.io/jamesmcewan
+https://keybase.io/jmcewan
 --------------------------------------------------------------------
 
 I hereby claim:
 
   * I am an admin of https://mcewan.io
-  * I am jamesmcewan (https://keybase.io/jamesmcewan) on keybase.
-  * I have a public key ASA4Qykm4B1-uwubcuuO32dd4i3PL_caJS4Fg_tGgvZsGQo
+  * I am jmcewan (https://keybase.io/jmcewan) on keybase.
+  * I have a public key ASADb0YaZ8bcfDMn8wxBHMauqoVZ0sL48UlHnhSIHzJXzQo
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "01208dd61e7aa2b28a306de119282bc55ac3ecc13625a9d7a3855e70477a2e978faa0a",
+      "eldest_kid": "0120036f461a67c6dc7c3327f30c411cc6aeaa8559d2c2f8f149479e14881f3257cd0a",
       "host": "keybase.io",
-      "kid": "012038432926e01d7ebb0b9b72eb8edf675de22dcf2ff71a252e0583fb4682f66c190a",
-      "uid": "c09d87d2b3340b91af89bad900a98d19",
-      "username": "jamesmcewan"
+      "kid": "0120036f461a67c6dc7c3327f30c411cc6aeaa8559d2c2f8f149479e14881f3257cd0a",
+      "uid": "7d2c67fc44de045abb6667114c93fe19",
+      "username": "jmcewan"
     },
     "merkle_root": {
-      "ctime": 1545407512,
-      "hash": "b08a825dd7be38d9fab74defe7cb782531f2fe4da46ede862e21f9fbb6714b1fc45827d4050d6f9d44e54d6430386cb7c23d46126f6a3ec8899bf2b119514472",
-      "hash_meta": "26709359fde8467453db943756da920db342f0842d1969f30c850ed976fc4ccc",
-      "seqno": 4180869
+      "ctime": 1545408754,
+      "hash": "26838aa69d507610938fd434255802e915434bee5af45a39c09838e3503f936b2e715a6a1961b169369d6661b6925325af5ae600765d51a7dde622d01ce5cff8",
+      "hash_meta": "f0a83857024e69064333b40a0bf7771e9ae8462668f7e22d3139160e54a3767a",
+      "seqno": 4180943
     },
     "service": {
-      "entropy": "OJPQvcFimwhS7Wnn1Dqost14",
+      "entropy": "f9eHT/4TS9gBfA0EHCnz3rGh",
       "hostname": "mcewan.io",
       "protocol": "https:"
     },
@@ -37,20 +37,20 @@ To do so, I am signing this object:
     "name": "keybase.io go client",
     "version": "2.6.0"
   },
-  "ctime": 1545407530,
+  "ctime": 1545408781,
   "expire_in": 504576000,
-  "prev": "a46e73e990317cded9c590142af393ac70e25af1897ba98100291ee4636f1d03",
-  "seqno": 24,
+  "prev": "75d304493121cd9dbb4898f639179e3716ff51b6fccdc72f4d2b62162dcdd24f",
+  "seqno": 5,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgOEMpJuAdfrsLm3Lrjt9nXeItzy/3GiUuBYP7RoL2bBkKp3BheWxvYWTESpcCGMQgpG5z6ZAxfN7ZxZAUKvOTrHDiWvGJe6mBACke5GNvHQPEIFCH+pzoRidHLzECWHt15kcxVn2UQk2HbDIgkBtGcSzPAgHCo3NpZ8RABOyHxWr62/wVqrYVOf+Z9JJiijZynnSrCD+tzI79dZHiFLj7RMsLSrCZ+059txhHWlBYL2yin63KOmJXIrvzCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJxrPQntpG0tv5dC69f0PqtEMTrhuHw8AjAjE5N4oI/4o3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgA29GGmfG3HwzJ/MMQRzGrqqFWdLC+PFJR54UiB8yV80Kp3BheWxvYWTESpcCBcQgddMESTEhzZ27SJj2OReeNxb/Ubb8zccvTStiFi3N0k/EIAKG5/Aryr2juJ1ec+lQJxDLLmwReg5Ec126bSkP/01mAgHCo3NpZ8RANxz3tL8dLqny35E05J5VyRDaKD6yfEWJJDTqJ/NFXmLPvsNz5sE9JbSnF+QJlgXT9MyU83Gp3P7+v0yg80MZA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJLclhdZzd/oC5CLbNBMUgGObZB+8s4yxLIAaHsKiQWpo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/jamesmcewan
+View my publicly-auditable identity here: https://keybase.io/jmcewan
 
 ==================================================================
