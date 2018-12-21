@@ -1,0 +1,9 @@
+baseURL = "https://mcewan.io/"
+languageCode = "en-gb"
+title = "mcewan.io - James McEwan"
+theme = "mcewan-hugo"
+
+[params]
+    author = "James McEwan"
+    header = "James McEwan"
+    subtitle = "Web Developer"
