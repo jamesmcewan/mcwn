@@ -4,7 +4,9 @@ date: 2018-12-21T01:14:22Z
 draft: false
 ---
 
-Hi! I’m James, for a over a decade I’ve worked as a Web Developer on an array of cool projects for some amazing clients. I love working with JavaScript and crafting great and accessible web apps.
+# Hi! I’m James McEwan, a Web Developer living and working in Scotland
+
+For a over a decade I’ve worked as a Web Developer on an array of cool projects for some amazing clients. I love working with JavaScript and crafting great and accessible web apps.
 
 Among my favourite things in this world, are coffee, drawing, comic books, cartoons from the 80s and a damn good burrito.
 
