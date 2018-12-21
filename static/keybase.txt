@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jamesmcewan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mcewan.io
+  * I am jamesmcewan (https://keybase.io/jamesmcewan) on keybase.
+  * I have a public key ASA4Qykm4B1-uwubcuuO32dd4i3PL_caJS4Fg_tGgvZsGQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208dd61e7aa2b28a306de119282bc55ac3ecc13625a9d7a3855e70477a2e978faa0a",
+      "host": "keybase.io",
+      "kid": "012038432926e01d7ebb0b9b72eb8edf675de22dcf2ff71a252e0583fb4682f66c190a",
+      "uid": "c09d87d2b3340b91af89bad900a98d19",
+      "username": "jamesmcewan"
+    },
+    "merkle_root": {
+      "ctime": 1545407512,
+      "hash": "b08a825dd7be38d9fab74defe7cb782531f2fe4da46ede862e21f9fbb6714b1fc45827d4050d6f9d44e54d6430386cb7c23d46126f6a3ec8899bf2b119514472",
+      "hash_meta": "26709359fde8467453db943756da920db342f0842d1969f30c850ed976fc4ccc",
+      "seqno": 4180869
+    },
+    "service": {
+      "entropy": "OJPQvcFimwhS7Wnn1Dqost14",
+      "hostname": "mcewan.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.6.0"
+  },
+  "ctime": 1545407530,
+  "expire_in": 504576000,
+  "prev": "a46e73e990317cded9c590142af393ac70e25af1897ba98100291ee4636f1d03",
+  "seqno": 24,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgOEMpJuAdfrsLm3Lrjt9nXeItzy/3GiUuBYP7RoL2bBkKp3BheWxvYWTESpcCGMQgpG5z6ZAxfN7ZxZAUKvOTrHDiWvGJe6mBACke5GNvHQPEIFCH+pzoRidHLzECWHt15kcxVn2UQk2HbDIgkBtGcSzPAgHCo3NpZ8RABOyHxWr62/wVqrYVOf+Z9JJiijZynnSrCD+tzI79dZHiFLj7RMsLSrCZ+059txhHWlBYL2yin63KOmJXIrvzCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJxrPQntpG0tv5dC69f0PqtEMTrhuHw8AjAjE5N4oI/4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jamesmcewan
+
+==================================================================
