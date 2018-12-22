@@ -1,0 +1,121 @@
+html,
+body,
+h1,
+h2,
+ul {
+  margin: 0;
+  padding: 0; }
+
+:root {
+  --heading-font: 'Informative-Black', sans-serif;
+  --main-font: 'Informative-Regular', sans-serif;
+  --primary-text: #ccd3dc;
+  --link: #c3ffde;
+  --link-hover: #a168ff;
+  --dark-bg: #151617 linear-gradient(#1a0f21, #151617 70%) no-repeat; }
+
+@font-face {
+  font-family: 'Informative-Black';
+  src: url("/fonts/3850A8_0_0.woff2") format("woff2"), url("/fonts/3850A8_0_0.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Informative-Regular';
+  src: url("/fonts/3850AE_0_0.woff2") format("woff2"), url("/fonts/3850AE_0_0.woff") format("woff"); }
+
+html {
+  font-size: 10px; }
+  @media screen and (min-width: 901px) {
+    html {
+      font-size: 12px; } }
+
+body {
+  background: var(--dark-bg);
+  color: var(--primary-text);
+  font-family: var(--main-font);
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em; }
+
+a {
+  color: var(--link);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 1.5s;
+  transition: color 1.5s; }
+  a:active, a:focus, a:hover {
+    color: var(--link-hover); }
+
+h1, h2, h3 {
+  font-family: var(--heading-font);
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  line-height: 1.5em;
+  margin: 0 0 1.3rem 0;
+  padding: 0; }
+
+h1 {
+  font-size: 3.6rem;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 3.6rem; }
+
+h3 {
+  font-size: 2.7rem; }
+
+p {
+  margin: 0 0 2.2rem 0; }
+  p:last-child {
+    margin: 0; }
+
+.wrapper {
+  margin: 2.6rem auto;
+  width: 100%;
+  max-width: 900px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+  grid-gap: 2.6rem;
+  align-items: start; }
+
+.header, .main, .footer, .elsewhere {
+  padding: 0 1.3rem; }
+  @media screen and (min-width: 901px) {
+    .header, .main, .footer, .elsewhere {
+      padding: 0; } }
+
+.header {
+  height: auto;
+  display: grid;
+  justify-items: center; }
+  .header .logo {
+    width: 100%;
+    display: block; }
+  .header .logo-link {
+    display: block; }
+
+.elsewhere {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 1.3rem; }
+
+@media screen and (min-width: 901px) {
+  .elsewhere {
+    grid-template-columns: repeat(7, auto); } }
+
+.selfie {
+  width: 100%;
+  display: block;
+  max-height: 12rem;
+  object-fit: cover;
+  background-color: var(--link-hover); }
+
+@media screen and (min-width: 901px) {
+  .selfie {
+    max-height: 26rem; } }
+
+.four-oh-four {
+  width: 100%; }
