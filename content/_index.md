@@ -3,7 +3,7 @@ title: "Home"
 date: 2018-12-21T01:14:22Z
 menu:
   main:
-    weight: -20
+    weight: -1
 draft: false
 ---
 
