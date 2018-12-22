@@ -9,8 +9,4 @@ draft: false
 
 # Hi Folks!
 
-For a over a decade I’ve worked as a Web Developer on an array of cool projects for some amazing clients. I love working with JavaScript and crafting great and accessible web apps.
-
-Among my favourite things in this world, are coffee, drawing, comic books, cartoons from the 80s and a damn good burrito.
-
-If you’ve got a project you’d like me to take a look at, or just want to discuss code, comics or movie monsters then Get in touch!
+I'm James, a web developer based in Edinburgh, Scotland. I've been building things for the web since around 1999, I love working with JavaScript and crafting great and accessible web apps.
