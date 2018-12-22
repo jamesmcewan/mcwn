@@ -120,5 +120,13 @@ p {
   .selfie {
     max-height: 26rem; } }
 
+.sketchbook {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-gap: 1.3rem; }
+  .sketchbook img {
+    width: 100%; }
+
 .four-oh-four {
   width: 100%; }
