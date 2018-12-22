@@ -1,7 +1,7 @@
 baseURL = "https://mcewan.io/"
 languageCode = "en-gb"
 title = "mcewan.io - James McEwan"
-theme = "mcewan-hugo"
+theme = "mcewan"
 sectionPagesMenu = "main"
 
 [params]

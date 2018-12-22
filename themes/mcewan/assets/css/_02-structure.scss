@@ -1,0 +1,121 @@
+.wrapper {
+  margin: 2.6rem auto;
+  width: 100%;
+  max-width: 900px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+  grid-gap: 2.6rem;
+  align-items: start;
+}
+
+%mobile-padding {
+  padding: 0 1.3rem;
+
+  @media screen and (min-width: $screen) {
+    padding: 0;
+  }
+}
+
+.header {
+  @extend %mobile-padding;
+
+  height: auto;
+  display: grid;
+  justify-items: center;
+
+  .logo {
+    width: 100%;
+    display: block;
+
+    &__path {
+      fill: var(--link);
+    }
+  }
+
+  .logo-link {
+    display: block;
+  }
+}
+
+.nav {
+  &__list {
+    list-style-type: none;
+    display: flex;
+    background: rgba(70, 40, 89, 1);
+
+    &__item {
+      text-transform: uppercase;
+      flex: 1;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.6);
+
+      &--active {
+        background: rgba(0, 0, 0, 0.4);
+      }
+    }
+  }
+
+  a {
+    display: block;
+    width: 100%;
+  }
+}
+
+.main {
+  @extend %mobile-padding;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.footer {
+  @extend %mobile-padding;
+}
+
+// Page specific
+
+.elsewhere {
+  @extend %mobile-padding;
+
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 1.3rem;
+}
+
+@media screen and (min-width: $screen) {
+  .elsewhere {
+    grid-template-columns: repeat(7, auto);
+  }
+}
+
+.selfie {
+  width: 100%;
+  display: block;
+  max-height: 12rem;
+  object-fit: cover;
+  background-color: var(--link-hover);
+}
+
+@media screen and (min-width: $screen) {
+  .selfie {
+    max-height: 26rem;
+  }
+}
+
+.sketchbook {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.3rem;
+
+  img {
+    width: 100%;
+  }
+}
+
+.four-oh-four {
+  width: 100%;
+}

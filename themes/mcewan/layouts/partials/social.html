@@ -1,0 +1,5 @@
+<ul class="elsewhere">
+  {{ range .Site.Data.social }}
+  <li><a href="{{ .url }}">{{ .name }}</a></li>
+  {{ end }}
+</ul>

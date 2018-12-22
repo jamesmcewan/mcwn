@@ -1,5 +1,6 @@
 {
   "hooks": {
-    "pre-commit": "hugo && git add .",
+    "pre-commit": "npm run format && npm run lint && git add .",
+    "pre-push": "hugo"
   }
 }

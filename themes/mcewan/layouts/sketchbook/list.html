@@ -1,0 +1,12 @@
+{{ define "main" }}
+<main class="main">
+  {{ .Content }}
+  <ul class="sketchbook">
+    {{ range .Pages }}
+    <li>
+      <a href="{{.Permalink}}"><img src="images/{{ .Params.image }}-t.png" alt="{{.Title}}"></a>
+    </li>
+    {{ end }}
+  </ul>
+</main>
+{{ end }}
