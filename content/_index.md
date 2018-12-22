@@ -9,4 +9,6 @@ draft: false
 
 # Hi Folks!
 
-I'm James, a web developer based in Edinburgh, Scotland. I've been building things for the web since around 1999, I love working with JavaScript and crafting great and accessible web apps.
+I'm James, a web developer based in Edinburgh, Scotland. 
+
+I've been building things for the web since around 1999, at the moment I mostly work with JavaScript to craft some pretty fun web apps.
