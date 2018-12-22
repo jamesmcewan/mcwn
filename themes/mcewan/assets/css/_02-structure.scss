@@ -29,7 +29,7 @@
     display: block;
 
     &__path {
-      fill: var(--link);
+      fill: var(--title);
     }
   }
 
@@ -42,23 +42,30 @@
   &__list {
     list-style-type: none;
     display: flex;
-    background: rgba(70, 40, 89, 1);
 
     &__item {
+      background: var(--nav-bg);
+      box-sizing: border-box;
       text-transform: uppercase;
       flex: 1;
       text-align: center;
-      background: rgba(0, 0, 0, 0.6);
+      a {
+        color: var(--nav-fg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.3rem 0;
+        line-height: 1em;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6);
+      }
 
       &--active {
-        background: rgba(0, 0, 0, 0.4);
+        a {
+          background: rgba(0, 0, 0, 0.4);
+        }
       }
     }
-  }
-
-  a {
-    display: block;
-    width: 100%;
   }
 }
 
@@ -96,7 +103,7 @@
   display: block;
   max-height: 12rem;
   object-fit: cover;
-  background-color: var(--link-hover);
+  background-color: var(--accent);
 }
 
 @media screen and (min-width: $screen) {

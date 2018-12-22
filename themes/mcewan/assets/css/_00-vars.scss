@@ -3,8 +3,13 @@ $screen: 901px;
 :root {
   --heading-font: "Informative-Black", sans-serif;
   --main-font: "Informative-Regular", sans-serif;
-  --primary-text: #ccd3dc;
-  --link: #c3ffde;
-  --link-hover: #a168ff;
-  --dark-bg: #151617 linear-gradient(#1a0f21, #151617 70%) no-repeat;
+  --primary-text: #cab3f7;
+  --title: #d801af;
+  --headings: #1ea8fc;
+  --accent: #680aff;
+  --link: #d86bff;
+  --link-hover: #d801af;
+  --nav-fg: #b099de;
+  --nav-bg: #340aa0;
+  --dark-bg: #0b011c;
 }
