@@ -1,6 +1,9 @@
 ---
-title: "mcewan.io - James McEwan Web Developer"
+title: "Home"
 date: 2018-12-21T01:14:22Z
+menu:
+  main:
+    weight: -20
 draft: false
 ---
 

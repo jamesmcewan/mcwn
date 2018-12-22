@@ -2,8 +2,9 @@ baseURL = "https://mcewan.io/"
 languageCode = "en-gb"
 title = "mcewan.io - James McEwan"
 theme = "mcewan-hugo"
+sectionPagesMenu = "main"
 
 [params]
     author = "James McEwan"
-    header = "James McEwan"
-    subtitle = "Web Developer"
+    subtitle = "mcewan.io - James McEwan"
+    description = "James McEwan is a web developer based in Edinburgh, Scotland"

@@ -70,6 +70,9 @@ p {
   p:last-child {
     margin: 0; }
 
+.nav {
+  font-family: var(--heading-font); }
+
 .wrapper {
   margin: 2.6rem auto;
   width: 100%;
@@ -93,8 +96,26 @@ p {
   .header .logo {
     width: 100%;
     display: block; }
+    .header .logo__path {
+      fill: var(--link); }
   .header .logo-link {
     display: block; }
+
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  background: #462859; }
+  .nav__list__item {
+    text-transform: uppercase;
+    flex: 1;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6); }
+    .nav__list__item--active {
+      background: rgba(0, 0, 0, 0.4); }
+
+.nav a {
+  display: block;
+  width: 100%; }
 
 .main img {
   max-width: 100%; }
