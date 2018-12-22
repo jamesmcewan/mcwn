@@ -96,6 +96,9 @@ p {
   .header .logo-link {
     display: block; }
 
+.main img {
+  max-width: 100%; }
+
 .elsewhere {
   list-style-type: none;
   display: grid;
