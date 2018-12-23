@@ -136,6 +136,8 @@
 }
 
 .logo-skull {
-  fill: var(--nav-fg);
   max-width: 100%;
+}
+.logo-skull__path {
+  fill: var(--nav-fg);
 }
