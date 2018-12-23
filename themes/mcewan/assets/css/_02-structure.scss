@@ -79,6 +79,14 @@
 
 .footer {
   @extend %mobile-padding;
+  display: grid;
+  grid-template-columns: 1fr 7rem;
+  align-items: flex-end;
+  grid-gap: 1.3rem;
+
+  p {
+    margin-bottom: 0;
+  }
 }
 
 // Page specific
@@ -125,4 +133,9 @@
 
 .four-oh-four {
   width: 100%;
+}
+
+.logo-skull {
+  fill: var(--nav-fg);
+  max-width: 100%;
 }

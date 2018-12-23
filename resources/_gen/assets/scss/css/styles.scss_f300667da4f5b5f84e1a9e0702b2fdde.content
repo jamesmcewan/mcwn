@@ -138,6 +138,14 @@ p {
 .main img {
   max-width: 100%; }
 
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 7rem;
+  align-items: flex-end;
+  grid-gap: 1.3rem; }
+  .footer p {
+    margin-bottom: 0; }
+
 .elsewhere {
   list-style-type: none;
   display: grid;
@@ -169,3 +177,7 @@ p {
 
 .four-oh-four {
   width: 100%; }
+
+.logo-skull {
+  fill: var(--nav-fg);
+  max-width: 100%; }
