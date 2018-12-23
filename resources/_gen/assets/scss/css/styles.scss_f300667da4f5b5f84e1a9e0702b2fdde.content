@@ -7,8 +7,8 @@ ul {
   padding: 0; }
 
 :root {
-  --heading-font: "Informative-Black", 'Arial Black', sans-serif;
-  --main-font: "Informative-Regular", 'Arial', sans-serif;
+  --heading-font: "Informative-Black", "Arial Black", sans-serif;
+  --main-font: "Informative-Regular", "Arial", sans-serif;
   --primary-text: #cab3f7;
   --title: #d801af;
   --headings: #1ea8fc;
