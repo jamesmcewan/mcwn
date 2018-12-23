@@ -1,0 +1,14 @@
+{
+  "short_name": "mce",
+  "name": "mcewan.io",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0b011c",
+  "theme_color": "#340aa0"
+}
