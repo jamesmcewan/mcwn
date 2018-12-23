@@ -1,11 +1,13 @@
 @font-face {
   font-family: "Informative-Black";
+  font-display: swap;
   src: url("/fonts/3850A8_0_0.woff2") format("woff2"),
     url("/fonts/3850A8_0_0.woff") format("woff");
 }
 
 @font-face {
   font-family: "Informative-Regular";
+  font-display: swap;
   src: url("/fonts/3850AE_0_0.woff2") format("woff2"),
     url("/fonts/3850AE_0_0.woff") format("woff");
 }
