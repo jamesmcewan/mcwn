@@ -1,10 +1,12 @@
 {{ define "main" }}
 <main class="main">
+  <h1>{{ .Title }}</h1>
   {{ .Content }}
-  <ul>
+  <ul class="main__list">
     {{ range .Pages }}
-    <li>
-      <a href="{{.Permalink}}">{{.Title}}</a>
+    <li class="main__list__item">
+      <h2><a href="{{.Permalink}}">{{.Title}}</a></h2>
+      <p>{{ .Description | markdownify }}</p>
     </li>
     {{ end }}
   </ul>
