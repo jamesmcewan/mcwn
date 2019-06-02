@@ -5,11 +5,11 @@ name = "Mcewan"
 license = "MIT"
 licenselink = "https://github.com/jamesmcewan/mcewan-hugo/blob/master/LICENSE"
 description = ""
-homepage = "https://mcewan.io/"
+homepage = "https://jamesmcewan.net/"
 tags = []
 features = []
 min_version = "0.41"
 
 [author]
   name = "James McEwan"
-  homepage = "https://mcewan.io"
+  homepage = "https://jamesmcewan.net"

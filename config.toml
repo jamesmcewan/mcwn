@@ -1,10 +1,10 @@
-baseURL = "https://mcewan.io/"
+baseURL = "https://jamesmcewan.net/"
 languageCode = "en-gb"
-title = "mcewan.io - James McEwan"
+title = "jamesmcewan.net - James McEwan"
 theme = "mcewan"
 sectionPagesMenu = "main"
 
 [params]
     author = "James McEwan"
-    subtitle = "mcewan.io - James McEwan"
+    subtitle = "jamesmcewan.net - James McEwan"
     description = "James McEwan is a web developer based in Edinburgh, Scotland"
