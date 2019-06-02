@@ -7,8 +7,8 @@ ul {
   padding: 0; }
 
 :root {
-  --heading-font: "Informative-Black", "Arial Black", sans-serif;
-  --main-font: "Informative-Regular", "Arial", sans-serif;
+  --heading-font: "Isotope A", "Isotope B", "Arial Black", sans-serif;
+  --main-font:  "Whitney Cond SSm A", "Whitney Cond SSm B", "Arial", sans-serif;
   --primary-text: #cab3f7;
   --title: #d801af;
   --headings: #1ea8fc;
@@ -19,21 +19,8 @@ ul {
   --nav-bg: #340aa0;
   --dark-bg: #0b011c; }
 
-@font-face {
-  font-family: "Informative-Black";
-  font-display: swap;
-  src: url("/fonts/3850A8_0_0.woff2") format("woff2"), url("/fonts/3850A8_0_0.woff") format("woff"); }
-
-@font-face {
-  font-family: "Informative-Regular";
-  font-display: swap;
-  src: url("/fonts/3850AE_0_0.woff2") format("woff2"), url("/fonts/3850AE_0_0.woff") format("woff"); }
-
 html {
   font-size: 10px; }
-  @media screen and (min-width: 901px) {
-    html {
-      font-size: 12px; } }
 
 body {
   background: var(--dark-bg);
@@ -56,7 +43,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
   letter-spacing: 1.5px;
   line-height: 1.5em;
   margin: 0 0 1.3rem 0;

@@ -1,23 +1,5 @@
-@font-face {
-  font-family: "Informative-Black";
-  font-display: swap;
-  src: url("/fonts/3850A8_0_0.woff2") format("woff2"),
-    url("/fonts/3850A8_0_0.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Informative-Regular";
-  font-display: swap;
-  src: url("/fonts/3850AE_0_0.woff2") format("woff2"),
-    url("/fonts/3850AE_0_0.woff") format("woff");
-}
-
 html {
   font-size: 10px;
-
-  @media screen and (min-width: $screen) {
-    font-size: 12px;
-  }
 }
 
 body {
@@ -51,7 +33,7 @@ a {
 %headings {
   font-family: var(--heading-font);
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
   letter-spacing: 1.5px;
   line-height: 1.5em;
   margin: 0 0 1.3rem 0;
