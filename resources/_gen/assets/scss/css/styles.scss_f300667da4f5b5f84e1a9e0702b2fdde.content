@@ -8,7 +8,7 @@ ul {
 
 :root {
   --heading-font: "Isotope A", "Isotope B", "Arial Black", sans-serif;
-  --main-font:  "Whitney Cond SSm A", "Whitney Cond SSm B", "Arial", sans-serif;
+  --main-font: "Whitney Cond SSm A", "Whitney Cond SSm B", "Arial", sans-serif;
   --primary-text: #cab3f7;
   --title: #d801af;
   --headings: #1ea8fc;

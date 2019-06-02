@@ -1,5 +1,9 @@
 html {
   font-size: 10px;
+
+  @media screen and (min-width: $screen) {
+    font-size: 12px;
+  }
 }
 
 body {
