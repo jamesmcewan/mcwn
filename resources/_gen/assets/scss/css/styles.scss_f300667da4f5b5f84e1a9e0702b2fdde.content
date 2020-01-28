@@ -17,13 +17,13 @@ ul {
   --link-hover: #d801af;
   --nav-fg: #b099de;
   --nav-bg: #340aa0;
-  --dark-bg: #0b011c; }
+  --main-bg: #0b011c; }
 
 html {
   font-size: 10px; }
 
 body {
-  background: var(--dark-bg);
+  background: var(--main-bg);
   color: var(--primary-text);
   font-family: var(--main-font);
   font-size: 2.2rem;

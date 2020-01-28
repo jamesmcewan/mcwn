@@ -1,6 +1,80 @@
-{{ define "main" }}
-<main class="main">
-  <h1>Not found!</h1>
-  <img src="/images/wally.gif" alt="Where's wally?" class="four-oh-four">
-</main>
-{{ end }}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>James McEwan, developer and illustrator- mcewan.io</title>
+    <link rel="apple-touch-icon" href="icon-512.png" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+
+
+    <style>
+      body {
+        background-color: #0b011c;
+        color: #cab3f7;
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+      }
+
+      .wrapper {
+        width: 90%;
+        max-width: 450px;
+        margin: 26px auto;
+      }
+
+      .selfie {
+        text-align: center;
+      }
+
+      .selfie img {
+        width: 250px;
+      }
+
+      em {
+        font-style: normal;
+        color: #1ea8fc;
+      }
+
+      p {
+        font-size: 1.4rem;
+        line-height: 1.3;
+      }
+
+      a {
+        color: #d801af;
+        text-decoration: none;
+      }
+
+      img {
+        filter: brightness(90%) hue-rotate(250deg) grayscale(10%);
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="selfie">
+        <img src="images/james-mcewan.png" alt="James McEwan" />
+      </div>
+
+      <div class="content">
+        <p>
+          Hi! I’m <em>James McEwan</em>, a developer from Scotland. I mainly
+          work with JavaScript to build useful apps that are (hopefully) fun to
+          use.
+        </p>
+
+        <p>
+          I code over on <a href="https://github.com/jamesmcewan">github</a>,
+          you can check out my drawings on
+          <a href="https://mcewan.ink">mcewan.ink</a> and I’m usually reachable
+          via <a href="https://twitter.com/mce">twitter</a>.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
