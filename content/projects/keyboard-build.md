@@ -2,14 +2,14 @@
 title: "Keyboard Build"
 date: 2019-06-02T18:34:59+01:00
 draft: false
-description: Being a fan of mechanical keyboards, I decided to try my hand at building one. 
+description: Being a fan of mechanical keyboards, I decided to try my hand at building one.
 ---
 
 ![Keyboard build one](/projects/images/keyboard01.jpg)
 
-Being a fan of mechanical keyboards, I decided to try my hand at building one. 
+Being a fan of mechanical keyboards, I decided to try my hand at building one.
 
-It's been a while since I last tried soldering, so to be on the safe side I used a hot swap PCB that the switches clip into. 
+It's been a while since I last tried soldering, so to be on the safe side I used a hot swap PCB that the switches clip into.
 
 ## Parts
 
