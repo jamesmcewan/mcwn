@@ -19,8 +19,9 @@ const IndexPage = () => (
 
       <p>
         I code over on <a href="https://github.com/jamesmcewan">github</a>, you
-        can check out my drawings on <a href="https://mcewan.ink">mcewan.ink</a> and I’m usually reachable
-        via <a href="https://twitter.com/mce">twitter</a>.
+        can check out my drawings on <a href="https://mcewan.ink">mcewan.ink</a>{" "}
+        and I’m usually reachable via{" "}
+        <a href="https://twitter.com/mce">twitter</a>.
       </p>
     </div>
   </Layout>
