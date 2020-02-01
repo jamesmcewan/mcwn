@@ -1,9 +1,0 @@
-languageCode = "en-gb"
-title = "mcewan creative engineering - mcewan.io"
-theme = "mcewan"
-sectionPagesMenu = "main"
-
-[params]
-    author = "James McEwan"
-    subtitle = "mcewan creative engineering - mcewan.io"
-    description = "James McEwan is a web developer based in Edinburgh, Scotland"

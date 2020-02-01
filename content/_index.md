@@ -7,7 +7,6 @@ menu:
 draft: false
 ---
 
-
 # An intro...
 
 I'm James McEwan, a maker of things, including, but not limited to full stack web engineering, illustration, design and some hardware hacking when I have the time.
