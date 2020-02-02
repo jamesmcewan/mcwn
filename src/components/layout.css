@@ -14,11 +14,8 @@ body {
 }
 
 .selfie {
-  text-align: center;
-}
-
-.selfie img {
-  width: 250px;
+  margin: auto;
+  max-width: 250px;
 }
 
 em {
@@ -38,12 +35,12 @@ p {
 }
 
 footer {
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.3;
 }
 
 a {
-  color: #d801af;
+  color: #fe5de1;
   text-decoration: none;
 }
 
