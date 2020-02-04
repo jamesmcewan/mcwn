@@ -5,7 +5,7 @@ draft: false
 ---
 
 Hi! I’m _James McEwan_, a developer from Scotland. I mainly work
-with JavaScript to build useful apps that are (hopefully) fun to use.
+with JavaScript to build useful apps that are (hopefully) fun to too!
 
 I code over on [github](https://github.com/jamesmcewan) / [mcwn.dev](https://mcwn.dev), you
 can check out my drawings on [mcewan.ink](https://mcewan.ink) and I’m usually reachable via
