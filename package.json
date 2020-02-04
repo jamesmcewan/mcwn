@@ -11,8 +11,7 @@
   },
   "lint-staged": {
     "*.md|*.html|*.json|*.webmanifest": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "license": "MIT",
