@@ -7,11 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js v13.7.0
-        uses: actions/setup-node@v1
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          node-version: "v13.7.0"
-      - run: npm install
-      - run: npm run build
-        env:
-          CI: true
+          hugo-version: "0.63.2"
+      - name: Build
+        run: hugo --minify

@@ -1,14 +1,12 @@
 ---
-title: "Home"
-date: 2018-12-21T01:14:22Z
-menu:
-  main:
-    weight: -1
+title: "Hi!"
+date: 2020-02-04T19:43:27Z
 draft: false
 ---
 
-# An intro...
+Hi! I’m _James McEwan_, a developer from Scotland. I mainly work
+with JavaScript to build useful apps that are (hopefully) fun to use.
 
-I'm James McEwan, a maker of things, including, but not limited to full stack web engineering, illustration, design and some hardware hacking when I have the time.
-
-I've been building things for the web since the late nineties. At the moment I mostly work with JavaScript to craft some pretty fun web apps.
+I code over on [github](https://github.com/jamesmcewan) / [mcwn.dev](https://mcwn.dev), you
+can check out my drawings on [mcewan.ink](https://mcewan.ink) and I’m usually reachable via
+[twitter](https://twitter.com/mce).
