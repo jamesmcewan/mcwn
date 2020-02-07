@@ -1,6 +1,7 @@
 baseURL = "https://mcewan.io/"
 languageCode = "en-gb"
 title = "James McEwan - mcewan.io"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
     author = "James McEwan"
