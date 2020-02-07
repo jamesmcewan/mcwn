@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "hugo -v --minify --enableGitInfo --templateMetrics --templateMetricsHints"
-  }
+  },
   "lint-staged": {
     "*.md|*.html|*.json|*.webmanifest": [
       "prettier --write"
