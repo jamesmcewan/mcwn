@@ -9,6 +9,9 @@
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1"
   },
+  "scripts": {
+    "build": "hugo -v --minify"
+  },
   "lint-staged": {
     "*.md|*.html|*.json|*.webmanifest": [
       "prettier --write"
