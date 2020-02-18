@@ -2,7 +2,7 @@
   "name": "@jamesmcewan/mcewan-io",
   "private": true,
   "description": "personal site",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "author": "James McEwan <james@mcewan.io>",
   "devDependencies": {
     "husky": "^4.2.1",
