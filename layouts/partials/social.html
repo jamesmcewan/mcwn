@@ -1,0 +1,9 @@
+<ul class="elsewhere">
+  {{ range .Site.Data.social.items }}
+  <li>
+    <a aria-label="{{ .name }}" href="{{ .url }}"
+      ><i aria-hidden="true" class="fab fa-{{ lower .name }}"></i
+    ></a>
+  </li>
+  {{ end }}
+</ul>
