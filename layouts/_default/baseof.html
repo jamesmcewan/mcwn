@@ -36,20 +36,24 @@
       sizes="512x512"
       href="/icons/icon-512x512.png"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap"
-      rel="stylesheet"
-    />
 
     <title>{{ .Title }} | {{ .Site.Params.subtitle }}</title>
 
     {{ $style := resources.Get "css/styles.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+    {{ $fa := resources.Get "css/fontawesome.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $fa.RelPermalink }}" />
+    {{ $brands := resources.Get "css/brands.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $brands.RelPermalink }}" />
   </head>
 
   <body>
     <div class="wrapper">
       {{- block "main" . }} {{- end }}
+
+      <div class="social">
+        {{ partial "social.html" .}}
+      </div>
 
       <footer class="footer">
         &copy; 2020 {{ .Site.Params.Author }}

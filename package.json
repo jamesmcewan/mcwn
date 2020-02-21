@@ -10,7 +10,8 @@
     "prettier": "^1.19.1"
   },
   "scripts": {
-    "build": "hugo --minify"
+    "build": "hugo --minify",
+    "start": "hugo server"
   },
   "lint-staged": {
     "*.md|*.html|*.json|*.webmanifest": [
