@@ -1,0 +1,11 @@
+{{$style := resources.Get "css/styles.scss" | toCSS | minify | fingerprint}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+
+<link rel="icon" href="/icons/icon-48x48.png" />
+{{ range .Site.Params.favicons }}
+<link
+  rel="apple-touch-icon"
+  sizes="{{ . }}x{{ . }}"
+  href="/icons/icon-{{ . }}x{{ . }}.png"
+/>
+{{ end }}

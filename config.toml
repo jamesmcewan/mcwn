@@ -1,9 +1,0 @@
-baseURL = "https://mcewan.io/"
-languageCode = "en-gb"
-title = "James McEwan - mcewan.io"
-disableKinds = ["taxonomy", "taxonomyTerm"]
-
-[params]
-    author = "James McEwan"
-    subtitle = "James McEwan - mcewan.io"
-    description = "James McEwan is a web developer based in Edinburgh, Scotland"
