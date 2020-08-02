@@ -1,9 +1,10 @@
-{{ define "main" }}
+---
+layout: base.njk
+---
 <div class="selfie">
   <img src="images/james-mcewan.png" alt="James McEwan" />
 </div>
 
 <main class="content">
-  {{ .Content }}
+  {{ content | safe }}
 </main>
-{{ end }}

@@ -1,6 +1,7 @@
 ---
 title: "Hi!"
 date: 2020-02-04T19:43:27Z
+layout: index.njk
 draft: false
 ---
 
