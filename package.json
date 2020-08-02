@@ -2,7 +2,7 @@
   "name": "@jamesmcewan/mcewan-io",
   "private": true,
   "description": "personal site",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "author": "James McEwan <james@mcewan.io>",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
