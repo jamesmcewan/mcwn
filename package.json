@@ -6,6 +6,7 @@
   "author": "James McEwan <james@mcewan.io>",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
+    "html-minifier": "^4.0.0",
     "husky": "^4.2.1",
     "js-yaml": "^3.14.0",
     "lint-staged": "^10.0.7",
@@ -13,7 +14,7 @@
     "prettier": "^1.19.1"
   },
   "scripts": {
-    "scss": "node-sass src/scss/styles.scss -o src/static/css",
+    "scss": "node-sass src/scss/styles.scss -o src/static/css --output-style compressed",
     "dev:eleventy": "npx @11ty/eleventy --serve",
     "build": "npm run scss; ELEVENTY_ENV=production npx @11ty/eleventy",
     "start": "npm run scss; npm run dev:eleventy"
