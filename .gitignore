@@ -1,7 +1,9 @@
 node_modules
 
-# Hugo default output directory
+# default output directory
 /public
+# node sass output
+/src/static/css
 
 ## OS Files
 # Windows
