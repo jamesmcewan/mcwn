@@ -16,7 +16,7 @@
   "scripts": {
     "scss": "node-sass src/scss/styles.scss -o src/static/css --output-style compressed",
     "dev:eleventy": "npx @11ty/eleventy --serve",
-    "build": "npm run scss; ELEVENTY_ENV=production npx @11ty/eleventy",
+    "build": "npm run scss;  npx @11ty/eleventy",
     "start": "npm run scss; npm run dev:eleventy"
   },
   "lint-staged": {
