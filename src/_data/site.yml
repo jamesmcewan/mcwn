@@ -1,0 +1,16 @@
+baseURL: "https://mcewan.io/"
+languageCode: "en-gb"
+title: "James McEwan - mcewan.io"
+author: "James McEwan"
+subtitle: "James McEwan - mcewan.io"
+description: "James McEwan is a web developer based in Edinburgh, Scotland"
+themeColor: "#cab3f7"
+favicons:
+  - 48
+  - 72
+  - 96
+  - 144
+  - 192
+  - 256
+  - 386
+  - 512

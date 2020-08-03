@@ -1,7 +1,7 @@
 ---
 title: "Hi!"
-date: 2020-02-04T19:43:27Z
-draft: false
+layout: home
+permalink: "/"
 ---
 
 Hi! I’m _James McEwan_, a developer from Scotland. I mainly work

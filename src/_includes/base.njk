@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'partials/meta.njk' %}
+    <title>{{ title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    {% include 'partials/icons.njk' %}
+
+  </head>
+
+  <body>
+    <div class="wrapper">
+      {{ content | safe }}
+
+      {% include 'partials/social.njk' %}
+      <footer class="footer">
+        &copy; 2020 {{ site.author }}
+      </footer>
+    </div>
+  </body>
+</html>
