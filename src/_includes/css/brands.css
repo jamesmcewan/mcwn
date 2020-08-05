@@ -7,10 +7,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../webfonts/fa-brands-400.woff");
-}
+  src: url("../webfonts/fa-brands-400.woff"); }
 
 .fab {
   font-family: "Font Awesome 5 Brands";
-  font-weight: 400;
-}
+  font-weight: 400; }

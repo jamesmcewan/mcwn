@@ -1,0 +1,11 @@
+{% set css %}
+  {% include "css/fonts.css" %}
+  {% include "css/base.css" %}
+  {% include "css/elsewhere.css" %}
+  {% include "css/fontawesome.css" %}
+  {% include "css/brands.css" %}
+{% endset %}
+
+<style>
+  {{ css | cssmin | safe }}
+</style>

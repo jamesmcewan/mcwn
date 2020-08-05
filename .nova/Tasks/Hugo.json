@@ -1,6 +1,0 @@
-{
-  "script": "if [ $NOVA_TASK_NAME == \"build\" ]; then\n\thugo --minify\nfi\n\nif [ $NOVA_TASK_NAME == \"run\" ]; then\n\thugo server\nfi",
-  "runsCreateIndividualLogs": true,
-  "actions": ["build", "run"],
-  "identifier": "C3CC10A0-83DD-426B-9DB7-BA142FA30F99"
-}

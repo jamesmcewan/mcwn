@@ -2,22 +2,20 @@
   "name": "@jamesmcewan/mcewan-io",
   "private": true,
   "description": "personal site",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "author": "James McEwan <james@mcewan.io>",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
+    "clean-css": "^4.2.3",
     "html-minifier": "^4.0.0",
     "husky": "^4.2.1",
     "js-yaml": "^3.14.0",
     "lint-staged": "^10.0.7",
-    "node-sass": "^4.14.1",
     "prettier": "^1.19.1"
   },
   "scripts": {
-    "scss": "node-sass src/scss/styles.scss -o src/static/css --output-style compressed",
-    "dev:eleventy": "npx @11ty/eleventy --serve",
-    "build": "npm run scss;  npx @11ty/eleventy",
-    "start": "npm run scss; npm run dev:eleventy"
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
   },
   "lint-staged": {
     "*.md|*.html|*.json|*.webmanifest": [
