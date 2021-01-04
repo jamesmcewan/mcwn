@@ -13,4 +13,4 @@ I'm also avid fan of comic books, coffee, mechanical keyboards, backpacks, and s
 ## Where to find me
 
 I usually tinker with [these apps](https://mcwn.dev) over on [github](https://github.com/jamesmcewan), you
-can check out my drawings on [mcewan.ink](https://mcewan.ink) or [Instagram](https://www.instagram.com/jamesmcewan/) and I’m usually reachable via [@mce on twitter](https://twitter.com/mce) and always happy to help with any code problems or talk about any of the above interests!
+can check out my drawings on [draws.mcwn.dev](https://draws.mcwn.dev) or [Instagram](https://www.instagram.com/jamesmcewan/) and I’m usually reachable via [@mce on twitter](https://twitter.com/mce) and always happy to help with any code problems or talk about any of the above interests!
