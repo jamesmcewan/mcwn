@@ -1,9 +1,7 @@
-const yaml = require("js-yaml");
 const htmlmin = require("html-minifier");
 const CleanCSS = require("clean-css");
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addDataExtension("yml", contents => yaml.safeLoad(contents));
   eleventyConfig.addPassthroughCopy({ "src/static": "/" });
   eleventyConfig.addFilter(
     "cssmin",
