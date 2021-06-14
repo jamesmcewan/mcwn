@@ -5,18 +5,15 @@
   "version": "5.0.0",
   "author": "James McEwan <james@mcewan.io>",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "clean-css": "^5.1.2",
-    "html-minifier": "^4.0.0",
+    "astro": "^0.13.3",
     "husky": "^6.0.0",
-    "js-yaml": "^4.0.0",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve",
-    "update-dependencies": "npx npm-check-updates --upgrade -x husky && npm i",
+    "build": "astro build",
+    "start": "astro dev",
+    "update-dependencies": "npx npm-check-updates && npm i",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
   },

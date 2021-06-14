@@ -1,10 +1,12 @@
 ---
-layout: base.njk
+import Base from './base.astro';
 ---
+<Base content={
 <div class="selfie">
   <img src="/images/jm2021.png" alt="James McEwan"/>
 </div>
 
 <main class="content">
-  {{ content | safe }}
+  {content}
 </main>
+} />

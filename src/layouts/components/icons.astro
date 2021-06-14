@@ -1,0 +1,12 @@
+---
+import site from '../../data/site.json';
+---
+
+<link rel="icon" href="/icons/icon-48x48.png" />
+{site.favicons.map(icon => (
+  <link
+  rel="apple-touch-icon"
+  sizes="{icon}x{icon}"
+  href="/icons/icon-{icon}x{icon}.png"
+/>
+))}
