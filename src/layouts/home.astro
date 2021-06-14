@@ -1,12 +1,13 @@
 ---
 import Base from './base.astro';
+export let content: any;
 ---
-<Base content={
-<div class="selfie">
-  <img src="/images/jm2021.png" alt="James McEwan"/>
-</div>
-
-<main class="content">
-  {content}
-</main>
-} />
+<Base content={content}>
+  <div class="selfie">
+    <img src="/images/jm2021.png" alt="James McEwan"/>
+  </div>
+  
+  <main class="content">
+    <slot />
+  </main>
+</Base>

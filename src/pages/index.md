@@ -1,6 +1,6 @@
 ---
-title: "Hi!"
 layout: "../layouts/home.astro"
+title: "Hi!"
 permalink: "/"
 ---
 

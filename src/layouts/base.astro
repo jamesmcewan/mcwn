@@ -1,25 +1,26 @@
 ---
-import Site from '../data/site.json';
+import site from '../data/site.json';
 import Meta from './components/meta.astro';
 import Icons from './components/icons.astro';
-import Styles from './components/styles.astro';
-export let content;
----
+export let content: any;
 
+---
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <Meta />
-    <title>{title} | {site.title}</title>
-    <Styles />
-    <Icons />
+    <title>{content.title} | {site.title}</title>
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/elsewhere.css">
+    <Icons favicons={site.favicons} />
 
   </head>
 
   <body>
     <div class="wrapper">
-      {content}
+      <slot />
 
       <footer class="footer">
         &copy; 2020 {site.author}
