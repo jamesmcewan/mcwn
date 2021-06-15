@@ -1,0 +1,9 @@
+---
+import Base from './base.astro';
+export let content: any;
+---
+<Base content={content}> 
+  <main class="content">
+    <slot />
+  </main>
+</Base>
