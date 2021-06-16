@@ -1,11 +1,10 @@
 ---
 import Base from './base.astro';
+import Selfie from './components/selfie.astro';
 export let content: any;
 ---
 <Base content={content}>
-  <div class="selfie">
-    <img src="/images/jm2021.png" alt="James McEwan"/>
-  </div>
+  <Selfie />
   
   <main class="content">
     <slot />

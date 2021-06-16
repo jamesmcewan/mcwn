@@ -1,0 +1,13 @@
+---
+import Meta from './meta.astro';
+import Icons from './icons.astro';
+export let content: any;
+export let site: any;
+---
+
+<head>
+  <Meta />
+  <title>{content.title} | {site.title}</title>
+  <link rel="stylesheet" href="/styles/global.css">
+  <Icons favicons={site.favicons} />
+</head>

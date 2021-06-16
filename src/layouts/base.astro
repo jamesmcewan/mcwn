@@ -1,28 +1,27 @@
 ---
 import site from '../data/site.json';
-import Meta from './components/meta.astro';
-import Icons from './components/icons.astro';
+import Head from './components/head.astro';
+import Footer from './components/footer.astro';
 export let content: any;
 
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <Meta />
-    <title>{content.title} | {site.title}</title>
-    <link rel="stylesheet" href="/styles/global.css">
-    <Icons favicons={site.favicons} />
-
-  </head>
-
+  <Head site={site} content={content} />
   <body>
     <div class="wrapper">
       <slot />
 
-      <footer class="footer">
-        &copy; 2020 {site.author}
-      </footer>
+      <Footer author={site.author} />
     </div>
   </body>
 </html>
+
+<style>
+  .wrapper {
+    width: 90%;
+    max-width: 500px;
+    margin: 26px auto;
+  }
+<style>
