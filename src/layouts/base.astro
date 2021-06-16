@@ -10,7 +10,7 @@ export let content: any;
 <html lang="en">
   <Head site={site} content={content} />
   <body>
-    <div class="wrapper">
+    <div>
       <slot />
 
       <Footer author={site.author} />
@@ -19,9 +19,9 @@ export let content: any;
 </html>
 
 <style>
-  .wrapper {
+  div {
     width: 90%;
     max-width: 500px;
     margin: 26px auto;
   }
-<style>
+</style>

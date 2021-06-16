@@ -5,6 +5,7 @@
   --call-out: #4978bc;
   --links: #bd60a5;
   --typeface: "Merriweather", serif;
+  --typeface-alt: "Permanent Marker", sans-serif;
   --weight: 300;
 }
 
@@ -37,7 +38,7 @@ p {
 h1,
 h2 {
   color: var(--secondary);
-  font-family: "Permanent Marker", sans-serif;
+  font-family: var(--typeface-alt);
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 1.4;
