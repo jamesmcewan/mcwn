@@ -1,6 +1,8 @@
 ---
 import site from '../data/site.json';
 import Head from './components/head.astro';
+import Wrapper from './components/wrapper.astro';
+import Header from './components/header.astro';
 import Footer from './components/footer.astro';
 export let content: any;
 
@@ -10,18 +12,10 @@ export let content: any;
 <html lang="en">
   <Head site={site} content={content} />
   <body>
-    <div>
+    <Wrapper>
+      <Header />
       <slot />
-
       <Footer author={site.author} />
-    </div>
+    </Wrapper>
   </body>
 </html>
-
-<style>
-  div {
-    width: 90%;
-    max-width: 500px;
-    margin: 26px auto;
-  }
-</style>

@@ -1,11 +1,8 @@
 ---
 import Base from './base.astro';
-import Selfie from './components/selfie.astro';
 export let content: any;
 ---
-<Base content={content}>
-  <Selfie />
-  
+<Base content={content}> 
   <main>
     <slot />
   </main>
