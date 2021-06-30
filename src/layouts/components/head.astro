@@ -1,0 +1,13 @@
+---
+import Meta from './meta.astro';
+import Icons from './icons.astro';
+
+const { content, site } = Astro.props;
+---
+
+<head>
+  <Meta />
+  <title>{content.title} | {site.title}</title>
+  <link rel="stylesheet" href="/styles/global.css">
+  <Icons favicons={site.favicons} />
+</head>
