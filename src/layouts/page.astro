@@ -1,6 +1,7 @@
 ---
 import Base from './base.astro';
-export let content: any;
+
+const { content } = Astro.props;
 ---
 <Base content={content}> 
   <main class="content">
