@@ -1,3 +1,1 @@
-export default {
-  renderers: ["@astrojs/renderer-react"]
-};
+export default {};

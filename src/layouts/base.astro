@@ -5,6 +5,16 @@ import Wrapper from './components/wrapper.astro';
 import Header from './components/header.astro';
 import Footer from './components/footer.astro';
 
+export interface ContentProps {
+  title: string
+  permalink: string;
+  astro: any;
+}
+
+export interface Props {
+  content: ContentProps;
+}
+
 const { content } = Astro.props;
 ---
 
