@@ -2,11 +2,36 @@
 import Meta from './meta.astro';
 import Icons from './icons.astro';
 
+export interface SiteProps {
+  baseUrl: string;
+  languageCode: string,
+  title: string;
+  author: string;
+  subtitle: string;
+  description: string;
+  themeColor: string;
+  favicons: [number];
+}
+
+export interface ContentProps {
+  title: string
+  permalink: string;
+  astro: any;
+}
+
+export interface Props {
+  content: ContentProps;
+  site: SiteProps;
+}
+
 const { content, site } = Astro.props;
 ---
 
 <head>
-  <Meta />
+  <Meta 
+    description={site.description}
+    themeColor={site.themeColor}
+  />
   <title>{content.title} | {site.title}</title>
   <link rel="stylesheet" href="/styles/global.css">
   <Icons favicons={site.favicons} />
