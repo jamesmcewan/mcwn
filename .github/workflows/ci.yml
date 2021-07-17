@@ -7,16 +7,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      - name: Use Node.js 16.3.0
+      - name: Use Node.js 16.4.0
         uses: actions/setup-node@v1
         with:
-          node-version: "16.3.0"
-
+          node-version: "16.4.0"
       - name: Install
         run: npm ci
-
       - name: Build
         run: npm run build
         env:
           CI: true
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Cypress run
+        uses: cypress-io/github-action@v2      
+        with:
+          start: npm start
+          wait-on: "http://localhost:3000"

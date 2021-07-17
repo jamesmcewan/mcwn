@@ -5,17 +5,20 @@
   "version": "6.0.1",
   "author": "James McEwan <james@mcewan.io>",
   "devDependencies": {
-    "astro": "^0.16.1",
-    "husky": "^7.0.0",
-    "lint-staged": "^11.0.0",
+    "astro": "^0.17.2",
+    "cypress": "^7.7.0",
+    "husky": "^7.0.1",
+    "is-ci": "^3.0.0",
+    "lint-staged": "^11.0.1",
     "prettier": "^2.3.2"
   },
   "scripts": {
     "build": "astro build",
     "start": "astro dev",
     "update-dependencies": "npx npm-check-updates --upgrade && npm i",
-    "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "prepare": "is-ci || husky install",
+    "lint-staged": "lint-staged",
+    "cy:open": "cypress open"
   },
   "lint-staged": {
     "*.md|*.html|*.json|*.webmanifest": [

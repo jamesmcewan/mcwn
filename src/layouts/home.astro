@@ -14,7 +14,7 @@ export interface Props {
 const { content } = Astro.props;
 ---
 <Base content={content}> 
-  <main>
+  <main data-testid="main">
     <slot />
   </main>
 </Base>
