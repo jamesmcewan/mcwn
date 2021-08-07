@@ -29,3 +29,11 @@ jobs:
           wait-on: "http://localhost:3000"
         env: 
           APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  lighthouseci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: npm install && npm install -g @lhci/cli@0.8.x
+      - run: npm run build
+      - run: lhci autorun
