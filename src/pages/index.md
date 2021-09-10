@@ -4,7 +4,7 @@ title: "Hi!"
 permalink: "/"
 ---
 
-# Hi! I’m _James McEwan_, a Lead Engineer at Buildit.
+# Hi! I’m _James McEwan_, a Senior Engineer.
 
 I love building things for the web, with a passion for performant, accessible apps, JavaScript, CSS, and all the Jamstack goodness.
 
