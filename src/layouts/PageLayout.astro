@@ -1,0 +1,29 @@
+---
+import site from '$data/site.json'
+import Head from '$components/Head.astro'
+import Header from '$components/Header.astro';
+import Footer from '$components/Footer.astro';
+const { content } = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<Head site={site} content={content} />
+</head>
+  <body>
+  <div class="wrapper">
+    <Header />
+      <slot />
+      <Footer author={site.author} />
+  </div>
+  </body>
+</html>
+
+<style>
+  .wrapper {
+    width: 90%;
+    max-width: 500px;
+    margin: 26px auto;
+  }
+</style>
