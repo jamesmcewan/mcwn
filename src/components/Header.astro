@@ -7,9 +7,21 @@
     text-align: center;
   }
   
+  @keyframes anime {
+    from {
+      filter: hue-rotate(250deg);
+    }
+    to {
+      filter:  hue-rotate(180deg);
+    }
+  }
+
   img {
     width: 250px;
-    filter: brightness(90%) hue-rotate(250deg) grayscale(10%);
     opacity: 0.7;
+    animation: anime;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
   </style>
