@@ -8,7 +8,7 @@
   "version": "6.0.1",
   "author": "James McEwan <james@mcewan.io>",
   "devDependencies": {
-    "astro": "^0.20.11",
+    "astro": "^0.22.9",
     "husky": "^7.0.2",
     "is-ci": "^3.0.0",
     "lint-staged": "^11.2.3",
