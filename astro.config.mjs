@@ -1,1 +1,9 @@
-export default {};
+export default {
+  buildOptions: {
+    site: "https://jamesmcewan.com/",
+  },
+  renderers: [],
+  vite: {
+    plugins: [],
+  },
+};
