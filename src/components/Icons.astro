@@ -7,4 +7,10 @@ const { favicons } = Astro.props;
 ---
 
 <link rel="icon" href="/icons/icon-48x48.png" />
-{favicons.map( (i) => <link rel="apple-touch-icon" sizes={`${i}x${i}`} href={`/icons/icon-${i}x${i}.png`} /> )}
+{favicons.map((i) => (
+  <link
+    rel="apple-touch-icon"
+    sizes={`${i}x${i}`}
+    href={`/icons/icon-${i}x${i}.png`}
+  />
+))}
