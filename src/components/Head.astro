@@ -7,5 +7,9 @@ const { content, site } = Astro.props;
 
 <Meta description={site.description} themeColor={site.themeColor} />
 <title>{content.title} | {site.title}</title>
-<link rel="stylesheet" href={Astro.resolve("../styles/global.css")} />
+
 <Icons favicons={site.favicons} />
+
+<style global>
+  @import "../styles/global.css";
+</style>
