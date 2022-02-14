@@ -1,23 +1,12 @@
 {
   "name": "@jamesmcewan/mcewan-io",
+  "version": "7.0.0",
   "private": true,
-  "description": "personal site",
-  "engines": {
-    "node": "14.x"
-  },
-  "version": "6.0.1",
-  "author": "James McEwan <james@mcewan.io>",
-  "devDependencies": {
-    "astro": "^0.20.11",
-    "husky": "^7.0.2",
-    "is-ci": "^3.0.0",
-    "lint-staged": "^11.2.3",
-    "prettier": "^2.4.1",
-    "prettier-plugin-astro": "^0.0.9"
-  },
   "scripts": {
-    "build": "astro build",
+    "dev": "astro dev",
     "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
     "update-dependencies": "npx npm-check-updates --upgrade && npm i",
     "prepare": "is-ci || husky install",
     "format": "prettier . --write",
@@ -28,13 +17,24 @@
       "prettier --write"
     ]
   },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.1",
+    "astro": "^0.22.20",
+    "husky": "^7.0.4",
+    "is-ci": "^3.0.1",
+    "lint-staged": "^12.3.4",
+    "prettier": "^2.5.1",
+    "prettier-plugin-astro": "^0.0.12",
+    "prettier-plugin-tailwindcss": "^0.1.7",
+    "tailwindcss": "^3.0.22"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jamesmcewan/mcewan-io.git"
+    "url": "git+https://github.com/jamesmcewan/mcwn.git"
   },
   "bugs": {
-    "url": "https://github.com/jamesmcewan/mcewan-io/issues"
+    "url": "https://github.com/jamesmcewan/mcwn/issues"
   },
-  "homepage": "https://github.com/jamesmcewan/mcewan-io#readme"
+  "homepage": "https://github.com/jamesmcewan/mcwn#readme"
 }
