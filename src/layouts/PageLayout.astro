@@ -1,8 +1,8 @@
 ---
-import site from "$data/site.json";
-import Head from "$components/Head.astro";
-import Header from "$components/Header.astro";
-import Footer from "$components/Footer.astro";
+import site from "@/data/site.json";
+import Head from "@/components/Head.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
 const { content } = Astro.props;
 ---
 
@@ -11,19 +11,15 @@ const { content } = Astro.props;
   <head>
     <Head {site} {content} />
   </head>
-  <body>
-    <div class="wrapper">
+  <body class="bg-amber-50 dark:bg-neutral-900">
+    <div class="md:container md:mx-auto px-4">
       <Header />
-      <slot />
+      <main
+        class="font-body  prose lg:prose-xl prose-headings:font-display prose-a:no-underline prose-headings:text-amber-700 prose-a:text-rose-500  text-amber-900 dark:text-violet-200 dark:prose-headings:text-violet-300 dark:prose-a:text-violet-400"
+      >
+        <slot />
+      </main>
       <Footer author={site.author} />
     </div>
   </body>
 </html>
-
-<style>
-  .wrapper {
-    width: 90%;
-    max-width: 500px;
-    margin: 26px auto;
-  }
-</style>
