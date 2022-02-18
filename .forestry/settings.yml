@@ -4,11 +4,12 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: pages/404.md
+  label: '404'
+  match: "**/*"
 - type: heading
   label: Site
-- type: document
-  path: pages
-  label: Pages
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
