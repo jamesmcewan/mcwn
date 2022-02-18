@@ -9,6 +9,9 @@ sections:
   label: Pages
   create: all
   match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - page
 - type: heading
   label: Site
 upload_dir: uploads
