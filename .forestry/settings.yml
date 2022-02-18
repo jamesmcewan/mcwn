@@ -4,9 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: pages/404.md
-  label: '404'
+- type: directory
+  path: src/pages
+  label: Pages
+  create: all
   match: "**/*"
 - type: heading
   label: Site
