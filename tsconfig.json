@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "include": ["src/**/*"],
     "baseUrl": ".",
     "moduleResolution": "node",
     "paths": {
