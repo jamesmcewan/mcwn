@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.2",
-    "astro": "^0.23.7",
+    "astro": "^0.24.3",
     "husky": "^7.0.4",
     "is-ci": "^3.0.1",
     "lint-staged": "^12.3.5",
