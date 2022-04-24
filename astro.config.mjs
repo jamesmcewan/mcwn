@@ -1,6 +1,7 @@
-export default /** @type {import('astro').AstroUserConfig} */ ({
-  buildOptions: {
-    sitemap: true,
-    site: "https://jamesmcewan.com/",
-  },
+import { defineConfig } from "astro/config";
+import tailwind from "@astrojs/tailwind";
+
+export default defineConfig({
+  integrations: [tailwind()],
+  site: "https://jamesmcewan.com/",
 });
