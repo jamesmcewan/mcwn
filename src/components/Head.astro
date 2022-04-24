@@ -9,7 +9,9 @@ const { content, site } = Astro.props;
 <title>{content.title} | {site.title}</title>
 
 <Icons favicons={site.favicons} />
-
-<style is:global>
-  @import "../styles/global.css";
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=PT+Sans&display=swap"
+  rel="stylesheet"
+/>
