@@ -7,8 +7,7 @@ module.exports = {
   plugins: [require("@tailwindcss/typography")],
   theme: {
     fontFamily: {
-      display: ["Cherry Cream Soda", "serif"],
-      body: ["PT Sans", "sans-serif"],
+      body: ["Cormorant Garamon", "serif"],
     },
     colors: {
       "y3-r2": "#FBC991",
