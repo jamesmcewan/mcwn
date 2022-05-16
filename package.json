@@ -22,7 +22,7 @@
     "@tailwindcss/typography": "^0.5.2",
     "astro": "^0.26.1",
     "autoprefixer": "^10.4.5",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "is-ci": "^3.0.1",
     "lint-staged": "^12.4.0",
     "postcss": "^8.4.12",
