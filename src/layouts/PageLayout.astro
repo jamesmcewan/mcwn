@@ -8,13 +8,7 @@ const { content } = Astro.props;
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-
+    <link href="https://use.typekit.net/urt2yyq.css" rel="stylesheet" />
     <Head {site} {content} />
   </head>
   <body class="bg-orange-100 dark:bg-stone-900">
@@ -22,7 +16,7 @@ const { content } = Astro.props;
       <div class="xl:flex xl:gap-12">
         <div class="xl:flex-1 xl:order-1">
           <main
-            class="font-body font-normal prose  md:prose-xl  prose-headings:font-semibold
+            class="font-basic font-extralight prose md:prose-lg lg:prose-xl prose-headings:font-loslana  prose-headings:font-bold
             prose-a:no-underline prose-headings:text-amber-800 prose-a:text-orange-700 text-stone-700 dark:text-amber-100 dark:prose-headings:text-amber-700 dark:prose-a:text-amber-600"
           >
             <slot />

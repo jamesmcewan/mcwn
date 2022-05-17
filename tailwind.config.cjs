@@ -9,6 +9,8 @@ module.exports = {
     extend: {
       fontFamily: {
         body: ["Playfair Display", "serif"],
+        basic: ["basic-sans", "sans-serif"],
+        loslana: ["loslana-niu-pro", "sans-serif"],
       },
     },
   },
