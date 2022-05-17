@@ -2,9 +2,10 @@
 title: Hi
 layout: ../layouts/PageLayout.astro
 permalink: /
-lastmod: 2022-05-17T15:20:55.225Z
+lastmod: 2022-05-17T23:10:49.342Z
 type: default
 description: James McEwan is a creative tech and cartoonist
+date: 2022-05-17T23:10:18.811Z
 ---
 
 # Hi! I’m James McEwan, a creative tech & cartoonist.
@@ -13,8 +14,6 @@ I love building things for the web, with a passion for performant, accessible ap
 
 I'm also avid fan of comic books, coffee, mechanical keyboards, backpacks, and stationary. In my spare time I enjoy illustrating using either traditional mediums or digitally on my iPad Pro.
 
-## Where to find me
+## Where to find my work
 
-I usually tinker with [these apps](https://apps.mcwn.dev) over on [github](https://github.com/jamesmcewan), occasionally I put some drawings up on [my portfolio](https://mcewan.ink).
-
-I’m usually reachable via [@mce on twitter](https://twitter.com/mce) and always happy to help with any code problems or talk about any of the above interests!
+Occasionally, I put some drawings up on [my portfolio](https://mcewan.ink). I also put together this [MVL app](https://mvl.mcwn.dev) to track the new Marvel comics releases each week - the code for this and other things I've built is over on [github](https://github.com/jamesmcewan).
