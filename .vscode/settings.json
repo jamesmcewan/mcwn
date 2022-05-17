@@ -1,6 +1,1 @@
-{
-  "frontMatter.content.autoUpdateDate": true,
-  "frontMatter.preview.host": "http://localhost:3000",
-  "frontMatter.framework.startCommand": "npm start",
-  "frontMatter.dashboard.openOnStart": true
-}
+{}
