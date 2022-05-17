@@ -8,15 +8,22 @@ const { content } = Astro.props;
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
     <Head {site} {content} />
   </head>
-  <body class="bg-y3-r2 dark:bg-y-r-b">
+  <body class="bg-orange-100 dark:bg-stone-900">
     <div class="md:container md:mx-auto px-4 my-10">
       <div class="xl:flex xl:gap-12">
         <div class="xl:flex-1 xl:order-1">
           <main
-            class="font-body font-light prose italic  md:prose-xl  prose-headings:font-light
-            prose-a:no-underline prose-headings:text-y-r-b prose-a:text-y-r-b4 text-y4-r-b4 dark:text-r2-b2 dark:prose-headings:text-y2-r3-b2 dark:prose-a:text-r3-b3"
+            class="font-body font-normal prose  md:prose-xl  prose-headings:font-semibold
+            prose-a:no-underline prose-headings:text-amber-800 prose-a:text-orange-700 text-stone-700 dark:text-amber-100 dark:prose-headings:text-amber-700 dark:prose-a:text-amber-600"
           >
             <slot />
           </main>
