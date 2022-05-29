@@ -5,6 +5,9 @@
   "author": "James McEwan",
   "subtitle": "James McEwan - mcewan.io",
   "description": "James McEwan is a web developer based in Edinburgh, Scotland",
-  "themeColor": "#05050e",
+  "themeColor": {
+    "light": "#ffedd5",
+    "dark": "#1c1917"
+  },
   "favicons": [48, 72, 96, 144, 192, 256, 386, 512]
 }
