@@ -1,5 +1,5 @@
 {
-  "name": "@jamesmcewan/mcewan-io",
+  "name": "@jamesmcewan/mcwn",
   "version": "7.1.0",
   "scripts": {
     "dev": "astro dev",
