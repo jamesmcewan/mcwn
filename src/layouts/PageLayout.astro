@@ -11,8 +11,10 @@ const { content } = Astro.props;
     <link href="https://use.typekit.net/urt2yyq.css" rel="stylesheet" />
     <Head {site} {content} />
   </head>
-  <body class="bg-violet-50 dark:bg-zinc-900">
-    <div class="md:container md:mx-auto px-4 my-10">
+  <body class="bg-violet-50 dark:bg-zinc-900 bg-checkerboard">
+    <div
+      class="md:container md:mx-auto px-4 my-10  -rotate-1 skew-x-2 md:skew-x-6 skew-y-1"
+    >
       <div class="xl:flex xl:gap-12">
         <div class="xl:flex-1 xl:order-1">
           <main
