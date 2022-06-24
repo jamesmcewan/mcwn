@@ -2,7 +2,7 @@
 title: Hi
 layout: ../layouts/PageLayout.astro
 permalink: /
-lastmod: 2022-06-21T22:21:12.710Z
+lastmod: 2022-06-24T16:52:12.234Z
 type: default
 description: James McEwan is a creative tech and cartoonist
 date: 2022-05-17T23:10:18.811Z
@@ -16,4 +16,4 @@ I'm also avid fan of comic books, coffee, mechanical keyboards, backpacks, and s
 
 ## Where to find my work
 
-Occasionally, I put some drawings up on [my portfolio](https://jamie.ink). I also put together this [MVL app](https://mvl.mcwn.dev) to track the new Marvel comics releases each week - the code for this and other things I've built is over on [github](https://github.com/jamesmcewan).
+Occasionally, I put some drawings up on [my portfolio](https://mcewan.ink). I also put together this [MVL app](https://mvl.mcwn.dev) to track the new Marvel comics releases each week - the code for this and other things I've built is over on [github](https://github.com/jamesmcewan).

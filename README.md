@@ -6,7 +6,7 @@ James McEwan's personal site [https://mcewan.io](https://mcewan.io)
 
 - THE FUTURE aka [Astro static site generator](https://astro.build).
 - Typefaces [Merriweather](https://fonts.google.com/specimen/Merriweather) and [Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker).
-- Illustration by [yours truly](https://jamie.ink).
+- Illustration by [yours truly](https://mcewan.ink).
 - Colours scheme based on classic comic book colour seperation guides.
 
 ## 👓
