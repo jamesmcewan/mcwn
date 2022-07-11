@@ -12,16 +12,14 @@ const { content } = Astro.props;
     <Head {site} {content} />
   </head>
   <body class="bg-violet-50 dark:bg-zinc-900 bg-checkerboard">
-    <div
-      class="md:container md:mx-auto px-4 my-10  -rotate-1 md:skew-x-2 lg:skew-x-6 md:skew-y-1"
-    >
+    <div class="md:container md:mx-auto px-4 my-10">
       <div class="xl:flex xl:gap-12">
         <div class="xl:flex-1 xl:order-1">
           <main
             class="font-basic font-light prose md:prose-lg lg:prose-xl prose-headings:font-loslana  prose-headings:font-black
             prose-a:no-underline prose-headings:text-violet-800 prose-a:text-pink-500 hover:prose-a:text-pink-400 text-violet-900 dark:text-violet-100 dark:prose-headings:text-violet-500 dark:prose-a:text-violet-400 dark:hover:prose-a:text-violet-300"
           >
-            <slot />
+            <slot></slot>
           </main>
         </div>
         <div class="flex justify-center items-center xl:flex-1 xl:order-2">
