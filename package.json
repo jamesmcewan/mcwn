@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@astrojs/tailwind": "^0.2.3",
-    "@tailwindcss/typography": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.4",
     "astro": "^0.26.1",
     "autoprefixer": "^10.4.7",
     "husky": "^8.0.1",
