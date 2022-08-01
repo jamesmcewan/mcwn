@@ -20,7 +20,7 @@
     "@astrojs/tailwind": "^0.2.4",
     "@tailwindcss/typography": "^0.5.4",
     "astro": "^0.26.1",
-    "autoprefixer": "^10.4.7",
+    "autoprefixer": "^10.4.8",
     "husky": "^8.0.1",
     "is-ci": "^3.0.1",
     "lint-staged": "^13.0.3",
