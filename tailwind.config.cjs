@@ -4,16 +4,16 @@ module.exports = {
     "./public/**/*.html",
     "./src/**/*.{astro,js,jsx,svelte,ts,tsx,vue}",
   ],
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [require("@tailwindcss/typography"), require('@catppuccin/tailwindcss'),],
   theme: {
     extend: {
       backgroundImage: {
         "checkerboard": "url('/images/bg.png')",
       },
       fontFamily: {
-        body: ["Playfair Display", "serif"],
         basic: ["basic-sans", "sans-serif"],
         loslana: ["loslana-niu-pro", "sans-serif"],
+        mixta: ['mixta-didone-alt', 'serif'],
       },
     },
   },

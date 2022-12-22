@@ -6,8 +6,14 @@ export interface Props {
 const { author } = Astro.props;
 ---
 
-<footer
-  class="my-10 font-basic font-light text-violet-900  dark:text-violet-100"
->
-  &copy; 2022 {author}
+<footer class="my-10 font-basic font-light text-text">
+  &copy; 2022 {author}. Built with <a
+    class="text-pink hover:text-flamingo"
+    href="https://astro.build">Astro</a
+  >, <a class="text-pink hover:text-flamingo" href="https://tailwindcss.com"
+    >TailwindCSS</a
+  >, and <a
+    class="text-pink hover:text-flamingo"
+    href="https://github.com/catppuccin/catppuccin">Catppuccin</a
+  >.
 </footer>

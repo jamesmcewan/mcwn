@@ -4,11 +4,11 @@ layout: ../layouts/PageLayout.astro
 permalink: /
 lastmod: 2022-06-24T16:52:12.234Z
 type: default
-description: James McEwan is a creative tech and cartoonist
+description: James McEwan is a creative engineer.
 date: 2022-05-17T23:10:18.811Z
 ---
 
-# Hi! I’m James McEwan, a creative tech & cartoonist.
+# Hi! I’m James McEwan, a creative engineer.
 
 I love building things for the web, with a passion for performant, accessible apps, JavaScript, CSS, and all the Jamstack goodness.
 
