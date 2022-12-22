@@ -8,7 +8,7 @@ description: James McEwan is a creative engineer.
 date: 2022-05-17T23:10:18.811Z
 ---
 
-# Hi, I’m James McEwan!
+# Hi, I’m James&nbsp;McEwan!
 
 I'm an engineer that loves making things for the web. With a passion for performant, accessible apps, JavaScript, building great products and even better teams.
 
