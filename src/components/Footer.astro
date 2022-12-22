@@ -1,19 +1,21 @@
 ---
+import site from "@/data/site.json";
+
 export interface Props {
   author: string;
 }
 
 const { author } = Astro.props;
+
+const formatter = new Intl.ListFormat("en", {
+  style: "long",
+  type: "conjunction",
+});
+const withLove = formatter.format(
+  site.tooling.map((tool) => `<a href="${tool.url}">${tool.name}</a>`)
+);
 ---
 
 <footer class="my-10 font-basic font-light text-text">
-  &copy; 2022 {author}. Built with <a
-    class="text-pink hover:text-flamingo"
-    href="https://astro.build">Astro</a
-  >, <a class="text-pink hover:text-flamingo" href="https://tailwindcss.com"
-    >TailwindCSS</a
-  >, and <a
-    class="text-pink hover:text-flamingo"
-    href="https://github.com/catppuccin/catppuccin">Catppuccin</a
-  >.
+  &copy; 2022 {author}. Built with {withLove}.
 </footer>

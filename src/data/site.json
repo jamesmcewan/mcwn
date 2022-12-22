@@ -9,5 +9,19 @@
     "light": "#f5f3ff",
     "dark": "#18181b"
   },
-  "favicons": [48, 72, 96, 144, 192, 256, 386, 512]
+  "favicons": [48, 72, 96, 144, 192, 256, 386, 512],
+  "tooling": [
+    {
+      "name": "Astro",
+      "url": "https://astro.build/"
+    },
+    {
+      "name": "TailwindCSS",
+      "url": "https://tailwindcss.com/"
+    },
+    {
+      "name": "Catppuccin",
+      "url": "https://github.com/catppuccin/tailwindcss"
+    }
+  ]
 }
