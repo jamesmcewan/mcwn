@@ -6,16 +6,17 @@ export interface Props {
 }
 
 const { author } = Astro.props;
-
-const formatter = new Intl.ListFormat("en", {
-  style: "long",
-  type: "conjunction",
-});
-const withLove = formatter.format(
-  site.tooling.map((tool) => `<a href="${tool.url}">${tool.name}</a>`)
-);
 ---
 
 <footer class="my-10 font-basic font-light text-text">
-  &copy; 2022 {author}. Built with {withLove}.
+  &copy; 2022 {author}. Built with {
+    site.tooling.map((tool) => (
+      <span>
+        <a href={tool.url} class="text-pink hover:text-flamingo">
+          {tool.name}
+        </a>
+        ,{" "}
+      </span>
+    ))
+  }and 💛.
 </footer>
