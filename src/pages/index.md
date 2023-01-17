@@ -16,4 +16,4 @@ I'm also avid fan of comic books, coffee, mechanical keyboards, backpacks, and s
 
 ## Where to find my work
 
-Occasionally, I put some drawings up on [my portfolio](https://mcewan.ink). I also put together this [MVL app](https://mvl.mcwn.dev) to track the new Marvel comics releases each week - the code for this and other things I've built is over on [github](https://github.com/jamesmcewan). These days I'm giving [Mastodon](https://mastodon.art/@mcwn) a try.
+Occasionally, I put some drawings up on [my portfolio](https://mcewan.ink). I also put together this [MVL app](https://mvl.mcwn.dev) to track the new Marvel comics releases each week - the code for this and other things I've built is over on [github](https://github.com/jamesmcewan). These days I'm giving <a rel="me" href="https://social.lol/@mcwn">Mastodon</a> a try.
