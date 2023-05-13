@@ -8,7 +8,7 @@ export interface Props {
 const { author } = Astro.props;
 ---
 
-<footer class="my-10 font-basic font-light text-text">
+<footer class="my-10 font-mixta font-medium text-text">
   &copy; 2022 {author}.<br />Built with {
     site.tooling.map((tool) => (
       <span>
@@ -18,5 +18,5 @@ const { author } = Astro.props;
         ,{" "}
       </span>
     ))
-  }&amp; 💛
+  } and &nbsp;💛
 </footer>

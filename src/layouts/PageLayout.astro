@@ -16,15 +16,13 @@ const { content } = Astro.props;
       <div class="xl:flex xl:gap-12">
         <div class="xl:order-1 xl:flex-1">
           <main
-            class="prose font-basic font-light text-text md:prose-lg lg:prose-xl prose-headings:font-mixta prose-headings:font-black prose-headings:text-text prose-a:text-pink prose-a:no-underline hover:prose-a:text-flamingo"
+            class="prose-md prose font-mixta font-medium text-text md:prose-xl prose-headings:font-mixta prose-headings:font-black prose-headings:text-text prose-a:text-pink prose-a:no-underline hover:prose-a:text-flamingo"
           >
             <slot />
           </main>
         </div>
         <div class="flex items-center justify-center xl:order-2 xl:flex-1">
-          <div
-            class="mt-10 w-28 rounded-full bg-maroon xl:mt-0 xl:w-full xl:max-w-fit"
-          >
+          <div class="mt-10 w-28 w-full xl:mt-0">
             <img
               src="/images/mcwn.webp"
               alt="James McEwan"
