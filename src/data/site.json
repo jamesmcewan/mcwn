@@ -10,6 +10,30 @@
     "dark": "#18181b"
   },
   "favicons": [48, 72, 96, 144, 192, 256, 386, 512],
+  "social": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/jamesmcewan"
+    },
+    {
+      "name": "Mastodon",
+      "url": "https://social.lol/@mcwn"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jamesmcewan/"
+    }
+  ],
+  "elsewhere": [
+    {
+      "name": "mcwn.ink - portfolio",
+      "url": "https://mcwn.ink"
+    },
+    {
+      "name": "zom.mcwn.me - writing",
+      "url": "https://zom.mcwn.me/"
+    }
+  ],
   "tooling": [
     {
       "name": "Astro",

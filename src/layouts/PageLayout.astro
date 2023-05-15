@@ -2,6 +2,7 @@
 import site from "@/data/site.json";
 import Head from "@/components/Head.astro";
 import Footer from "@/components/Footer.astro";
+import Links from "@/components/Links.astro";
 const { content } = Astro.props;
 ---
 
@@ -20,6 +21,7 @@ const { content } = Astro.props;
           >
             <slot />
           </main>
+          <Links />
         </div>
         <div class="flex items-center justify-center xl:order-2 xl:flex-1">
           <div class="mt-10 w-28 w-full xl:mt-0">

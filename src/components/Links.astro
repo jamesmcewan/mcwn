@@ -1,0 +1,34 @@
+---
+import site from "@/data/site.json";
+---
+
+<div class="mt-6">
+  <ul class="grid grid-cols-2 gap-2 md:grid-cols-3">
+    {
+      site.elsewhere.map((link) => (
+        <li>
+          <a
+            href={link.url}
+            rel="me"
+            class="block rounded-lg bg-crust p-4 font-mixta font-medium italic text-rosewater hover:bg-mantle hover:text-pink md:text-lg"
+          >
+            {link.name}
+          </a>
+        </li>
+      ))
+    }
+    {
+      site.social.map((link) => (
+        <li>
+          <a
+            href={link.url}
+            class="block rounded-lg bg-crust p-4 font-mixta font-medium italic text-rosewater hover:bg-mantle hover:text-pink md:text-lg"
+            rel="me"
+          >
+            {link.name}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</div>
