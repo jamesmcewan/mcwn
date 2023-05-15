@@ -1,6 +1,6 @@
 {
   "name": "@jamesmcewan/mcwn",
-  "version": "7.9.1",
+  "version": "7.9.2",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
