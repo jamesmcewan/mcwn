@@ -3,6 +3,7 @@ import site from "@/data/site.json";
 import Head from "@/components/Head.astro";
 import Footer from "@/components/Footer.astro";
 import Links from "@/components/Links.astro";
+import PostHog from "@/components/PostHog.astro";
 const { content } = Astro.props;
 ---
 
@@ -37,5 +38,6 @@ const { content } = Astro.props;
       </div>
       <Footer author={site.author} />
     </div>
+    <PostHog />
   </body>
 </html>
