@@ -1,10 +1,10 @@
 {
-  "baseURL": "https://mcewan.io/",
+  "baseURL": "https://mcwn.dev/",
   "languageCode": "en-gb",
-  "title": "James McEwan - mcewan.io",
+  "title": "James McEwan - mcwn.dev",
   "author": "James McEwan",
-  "subtitle": "James McEwan - mcewan.io",
-  "description": "James McEwan is a web developer based in Edinburgh, Scotland",
+  "subtitle": "James McEwan - mcwn.dev",
+  "description": "James McEwan is a developer and creative based in Edinburgh, Scotland",
   "themeColor": {
     "light": "#f5f3ff",
     "dark": "#18181b"
@@ -12,15 +12,15 @@
   "favicons": [48, 72, 96, 144, 192, 256, 386, 512],
   "social": [
     {
-      "name": "GitHub",
+      "name": "GitHub - jamesmcewan",
       "url": "https://github.com/jamesmcewan"
     },
     {
-      "name": "Mastodon",
+      "name": "Mastodon - @mcwn@social.lol",
       "url": "https://social.lol/@mcwn"
     },
     {
-      "name": "LinkedIn",
+      "name": "LinkedIn - jamesmcewan",
       "url": "https://www.linkedin.com/in/jamesmcewan/"
     }
   ],
@@ -32,6 +32,10 @@
     {
       "name": "[one]zom - writing",
       "url": "https://onezom.com/"
+    },
+    {
+      "name": "mvl - new comics app",
+      "url": "https://mvl.mcwn.dev/"
     }
   ],
   "tooling": [
