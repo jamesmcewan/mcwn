@@ -6,7 +6,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "update-dependencies": "npx npm-check-updates --upgrade && npm i",
+    "update-dependencies": "bunx npm-check-updates --upgrade && bunx install",
     "prepare": "is-ci || husky install",
     "format": "prettier . --write",
     "lint-staged": "lint-staged"
@@ -17,18 +17,18 @@
     ]
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^4.0.0",
+    "@astrojs/tailwind": "^5.0.0",
     "@catppuccin/tailwindcss": "^0.1.6",
-    "@tailwindcss/typography": "^0.5.9",
-    "astro": "^2.9.3",
-    "autoprefixer": "^10.4.14",
+    "@tailwindcss/typography": "^0.5.10",
+    "astro": "^3.0.13",
+    "autoprefixer": "^10.4.15",
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
-    "lint-staged": "^13.2.3",
-    "postcss": "^8.4.27",
-    "prettier": "^3.0.0",
-    "prettier-plugin-astro": "^0.11.0",
-    "prettier-plugin-tailwindcss": "^0.4.1",
+    "lint-staged": "^14.0.1",
+    "postcss": "^8.4.29",
+    "prettier": "^3.0.3",
+    "prettier-plugin-astro": "^0.12.0",
+    "prettier-plugin-tailwindcss": "^0.5.4",
     "tailwindcss": "^3.3.3"
   },
   "license": "MIT",
@@ -39,8 +39,5 @@
   "bugs": {
     "url": "https://github.com/jamesmcewan/mcwn/issues"
   },
-  "homepage": "https://github.com/jamesmcewan/mcwn#readme",
-  "publishConfig": {
-    "@jamesmcewan:registry": "https://npm.pkg.github.com"
-  }
+  "homepage": "https://github.com/jamesmcewan/mcwn#readme"
 }
