@@ -11,4 +11,4 @@ James McEwan's personal site [https://mcewan.io](https://mcewan.io)
 
 ![Build](https://github.com/jamesmcewan/mcwn/workflows/Build/badge.svg)
 
-Normally found on http://mcwn.dev
+Normally found on http://jamesmcewan.com

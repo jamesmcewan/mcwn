@@ -1,9 +1,9 @@
 {
-  "baseURL": "https://mcwn.dev/",
+  "baseURL": "https://jamesmcewan.com/",
   "languageCode": "en-gb",
-  "title": "James McEwan - mcwn.dev",
+  "title": "James McEwan - jamesmcewan.com",
   "author": "James McEwan",
-  "subtitle": "James McEwan - mcwn.dev",
+  "subtitle": "James McEwan - jamesmcewan.com",
   "description": "James McEwan is a developer and creative based in Edinburgh, Scotland",
   "themeColor": {
     "light": "#f5f3ff",
