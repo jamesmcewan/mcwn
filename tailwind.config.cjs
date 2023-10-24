@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mixta: ["mixta-pro", "serif"],
+        kabel: ["neue-kabel", "sans-serif"],
       },
     },
   },
