@@ -1,5 +1,6 @@
 ---
 import site from "@/data/site.json";
+import MightyDinosaur from "./mighty-dinosaur.astro";
 
 export interface Props {
   author: string;
@@ -8,15 +9,20 @@ export interface Props {
 const { author } = Astro.props;
 ---
 
-<footer class="my-12 font-kabel text-lg font-light text-text">
-  &copy; 2022 {author}.<br />Built with {
-    site.tooling.map((tool) => (
-      <span>
-        <a href={tool.url} class="text-pink hover:text-flamingo">
-          {tool.name}
-        </a>
-        ,{" "}
-      </span>
-    ))
-  } and &nbsp;💛
+<footer class="my-12">
+  <div class="font-kabel text-lg font-light text-text">
+    &copy; 2022 {author}.<br />Built with {
+      site.tooling.map((tool) => (
+        <span>
+          <a href={tool.url} class="text-pink hover:text-flamingo">
+            {tool.name}
+          </a>
+          ,{" "}
+        </span>
+      ))
+    } and &nbsp;💛
+  </div>
+  <div class="my-6 w-40">
+    <MightyDinosaur />
+  </div>
 </footer>
