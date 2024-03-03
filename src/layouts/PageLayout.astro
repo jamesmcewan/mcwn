@@ -10,7 +10,12 @@ const { content } = Astro.props;
 <!doctype html>
 <html lang="en">
   <head>
-    <link href="https://use.typekit.net/urt2yyq.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
     <Head {site} {content} />
   </head>
   <body class="mocha bg-base">
@@ -18,7 +23,7 @@ const { content } = Astro.props;
       <div class="xl:flex xl:gap-12">
         <div class="xl:order-1 xl:flex-1">
           <main
-            class="prose prose-xl font-kabel font-light text-text prose-headings:font-kabel prose-headings:font-black prose-headings:italic prose-headings:text-text prose-a:text-pink prose-a:no-underline hover:prose-a:text-flamingo"
+            class="prose prose-xl font-nunito font-light text-text prose-headings:font-nunito prose-headings:font-black prose-headings:italic prose-headings:text-text prose-a:text-pink prose-a:no-underline hover:prose-a:text-flamingo"
           >
             <slot />
           </main>

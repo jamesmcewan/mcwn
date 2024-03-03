@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        kabel: ["neue-kabel", "sans-serif"],
+        nunito: ["Nunito Sans", "sans-serif"],
       },
     },
   },
