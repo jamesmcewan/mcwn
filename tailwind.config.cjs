@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        nunito: ["Nunito Sans", "sans-serif"],
+        rethink: ["Rethink Sans", "sans-serif"],
       },
     },
   },
