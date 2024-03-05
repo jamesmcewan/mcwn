@@ -12,16 +12,29 @@
   "favicons": [48, 72, 96, 144, 192, 256, 386, 512],
   "social": [
     {
-      "name": "GitHub - jamesmcewan",
+      "name": "github/jamesmcewan",
       "url": "https://github.com/jamesmcewan"
     },
     {
-      "name": "Mastodon - @mcwn@social.lol",
+      "name": "mastodon/@mcwn@social.lol",
       "url": "https://social.lol/@mcwn"
     },
     {
-      "name": "LinkedIn - jamesmcewan",
+      "name": "linkedin/jamesmcewan",
       "url": "https://www.linkedin.com/in/jamesmcewan/"
+    },
+    {
+      "name": "letterboxd/mcwn",
+      "url": "https://letterboxd.com/mcwn/"
+    },
+    { "name": "bluesky/@mcwn.dev", "url": "https://bsky.app/profile/mcwn.dev" },
+    {
+      "name": "threads/@jamesmcewan",
+      "url": "https://www.threads.net/@jamesmcewan"
+    },
+    {
+      "name": "insta/jamesmcewan",
+      "url": "https://www.instagram.com/jamesmcewan/"
     }
   ],
   "elsewhere": [
