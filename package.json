@@ -8,7 +8,8 @@
     "preview": "astro preview",
     "update-dependencies": "bunx @astrojs/upgrade;bunx npm-check-updates --upgrade && bun install",
     "format": "prettier . --write",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "prepare": "is-ci || husky"
   },
   "lint-staged": {
     "*.md|*.html|*.json|*.astro": [
@@ -21,6 +22,7 @@
     "@tailwindcss/typography": "^0.5.15",
     "astro": "4.15.4",
     "autoprefixer": "^10.4.20",
+    "husky": "^9.1.5",
     "is-ci": "^3.0.1",
     "lint-staged": "^15.2.10",
     "postcss": "^8.4.45",
