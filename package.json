@@ -1,21 +1,9 @@
 {
   "name": "@jamesmcewan/mcwn",
   "version": "8.2.0",
-  "scripts": {
-    "build": "astro build",
-    "preview": "astro preview",
-    "update-dependencies": "bunx @astrojs/upgrade;bunx npm-check-updates --upgrade && bun install",
-    "dev": "astro dev",
-    "sst": "bunx sst dev",
-    "deploy:prod": "bunx sst deploy --stage main",
-    "format": "prettier . --write",
-    "lint-staged": "lint-staged",
-    "prepare": "is-ci || husky"
-  },
-  "lint-staged": {
-    "*.md|*.html|*.json|*.astro": [
-      "prettier --write"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesmcewan/mcwn.git"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",
@@ -32,18 +20,23 @@
     "prettier-plugin-tailwindcss": "^0.6.6",
     "tailwindcss": "^3.4.10"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jamesmcewan/mcwn.git"
-  },
   "bugs": {
     "url": "https://github.com/jamesmcewan/mcwn/issues"
   },
   "homepage": "https://github.com/jamesmcewan/mcwn#readme",
-  "dependencies": {
-    "astro-sst": "2.43.5",
-    "caniuse-lite": "^1.0.30001651",
-    "sst": "3.0.60"
+  "license": "MIT",
+  "lint-staged": {
+    "*.md|*.html|*.json|*.astro": [
+      "prettier --write"
+    ]
+  },
+  "scripts": {
+    "build": "astro build",
+    "preview": "astro preview",
+    "update-dependencies": "bunx @astrojs/upgrade;bunx npm-check-updates --upgrade && bun install",
+    "dev": "astro dev",
+    "format": "prettier . --write",
+    "lint-staged": "lint-staged",
+    "prepare": "is-ci || husky"
   }
 }
