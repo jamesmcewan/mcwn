@@ -6,7 +6,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "update-dependencies": "bunx npm-check-updates --upgrade && bun install",
+    "update-dependencies": "bunx @astrojs/upgrade;bunx npm-check-updates --upgrade && bun install",
     "format": "prettier . --write",
     "lint-staged": "lint-staged"
   },
