@@ -1,0 +1,4 @@
+{
+  "installCommand": "deno install",
+  "buildCommand": "deno task build"
+}
