@@ -1,4 +1,8 @@
 name: Build
+env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+  VERCEL_TOKEN: ${{secrets.VERCEL_TOKEN }}
 
 on: [push]
 
@@ -18,5 +22,10 @@ jobs:
         run: deno fmt --check
       - name: Build
         run: deno task build
+      - name: Install Vercel CLI
+        run: deno install --global --allow-net --allow-read npm:vercel@latest
+        run: vercel pull --yes --environment=preview --token="$VERCEL_TOKEN"
+        run: vercel build --token="$VERCEL_TOKEN"
+        run: vercel deploy --prebuilt --token="$VERCEL_TOKEN"
         env:
           CI: true
