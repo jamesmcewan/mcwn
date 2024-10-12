@@ -11,6 +11,7 @@
     "postcss": "npm:postcss@^8.4.47",
     "tailwindcss": "npm:tailwindcss@^3.4.13"
   },
+  "nodeModulesDir": "auto",
 
   "fmt": {
     "useTabs": false,
