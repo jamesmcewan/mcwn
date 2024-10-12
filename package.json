@@ -6,11 +6,5 @@
     "url": "git+https://github.com/jamesmcewan/mcwn.git"
   },
   "homepage": "https://github.com/jamesmcewan/mcwn#readme",
-  "license": "MIT",
-  "lint-staged": {
-    "*": [
-      "deno lint",
-      "deno fmt"
-    ]
-  }
+  "license": "MIT"
 }
