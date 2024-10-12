@@ -1,0 +1,30 @@
+{
+  "imports": {
+    "@astrojs/tailwind": "npm:@astrojs/tailwind@5.1.1",
+    "@catppuccin/tailwindcss": "npm:@catppuccin/tailwindcss@^0.1.6",
+    "@tailwindcss/typography": "npm:@tailwindcss/typography@^0.5.15",
+    "astro": "npm:astro@4.15.12",
+    "autoprefixer": "npm:autoprefixer@^10.4.20",
+    "husky": "npm:husky@^9.1.6",
+    "is-ci": "npm:is-ci@^3.0.1",
+    "lint-staged": "npm:lint-staged@^15.2.10",
+    "postcss": "npm:postcss@^8.4.47",
+    "tailwindcss": "npm:tailwindcss@^3.4.13"
+  },
+
+  "fmt": {
+    "useTabs": false,
+    "indentWidth": 2,
+    "semiColons": false,
+    "singleQuote": true
+  },
+  "tasks": {
+    "build": "astro build",
+    "preview": "astro preview",
+    "update-dependencies": "deno run -A npm:@astrojs/upgrade",
+    "dev": "astro dev",
+    "lint-staged": "lint-staged",
+    "prepare": "is-ci || husky"
+  },
+  "exclude": ["dist/", "public", "vercel"]
+}

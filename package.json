@@ -5,38 +5,12 @@
     "type": "git",
     "url": "git+https://github.com/jamesmcewan/mcwn.git"
   },
-  "devDependencies": {
-    "@astrojs/tailwind": "5.1.1",
-    "@catppuccin/tailwindcss": "^0.1.6",
-    "@tailwindcss/typography": "^0.5.15",
-    "astro": "4.15.12",
-    "autoprefixer": "^10.4.20",
-    "husky": "^9.1.6",
-    "is-ci": "^3.0.1",
-    "lint-staged": "^15.2.10",
-    "postcss": "^8.4.47",
-    "prettier": "^3.3.3",
-    "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.8",
-    "tailwindcss": "^3.4.13"
-  },
-  "bugs": {
-    "url": "https://github.com/jamesmcewan/mcwn/issues"
-  },
   "homepage": "https://github.com/jamesmcewan/mcwn#readme",
   "license": "MIT",
   "lint-staged": {
-    "*.md|*.html|*.json|*.astro": [
-      "prettier --write"
+    "*": [
+      "deno lint",
+      "deno fmt"
     ]
-  },
-  "scripts": {
-    "build": "astro build",
-    "preview": "astro preview",
-    "update-dependencies": "bunx @astrojs/upgrade;bunx npm-check-updates --upgrade && bun install",
-    "dev": "astro dev",
-    "format": "prettier . --write",
-    "lint-staged": "lint-staged",
-    "prepare": "is-ci || husky"
   }
 }

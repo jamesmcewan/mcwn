@@ -11,7 +11,11 @@ jobs:
         with:
           deno-version: v2.x
       - name: Install
-        run: deno install
+        run: deno install --allow-scripts=npm:sharp@0.33.5
+      - name: lint
+        run: deno lint
+      - name: format
+        run: deno fmt --check
       - name: Build
         run: deno task build
         env:
