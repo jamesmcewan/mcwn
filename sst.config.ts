@@ -15,7 +15,7 @@ export default $config({
   },
 
   async run() {
-    new sst.aws.StaticSite("zom-astro", {
+    new sst.aws.StaticSite("mcwn-astro", {
       build: {
         command: "bun run build",
         output: "dist",
