@@ -5,5 +5,9 @@ import "sst"
 export {}
 declare module "sst" {
   export interface Resource {
+    "mcwndotdev-astro": {
+      "type": "sst.aws.StaticSite"
+      "url": string
+    }
   }
 }
