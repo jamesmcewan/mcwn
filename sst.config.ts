@@ -20,6 +20,27 @@ export default $config({
         command: "bun run build",
         output: "dist",
       },
+
+      domain:
+        $app.stage === "main"
+          ? {
+              name: "mcwn.dev",
+              redirects: [
+                "www.mcwn.dev",
+                "mcewan.io",
+                "jamesmcewan.com",
+                "jamesmcewan.co.uk",
+                "jamesmcewan.net",
+                "defuser.net",
+                "mcewan.foo",
+                "diabolical.dev",
+                "mcwn.me",
+                "jmce.me",
+                "mcwn.io",
+              ],
+              dns: sst.aws.dns(),
+            }
+          : undefined,
     });
   },
 });
