@@ -6,19 +6,19 @@
     "url": "git+https://github.com/jamesmcewan/mcwn.git"
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/tailwind": "5.1.2",
     "@catppuccin/tailwindcss": "^0.1.6",
     "@tailwindcss/typography": "^0.5.15",
-    "astro": "4.15.4",
+    "astro": "4.16.2",
     "autoprefixer": "^10.4.20",
-    "husky": "^9.1.5",
+    "husky": "^9.1.6",
     "is-ci": "^3.0.1",
     "lint-staged": "^15.2.10",
-    "postcss": "^8.4.45",
+    "postcss": "^8.4.47",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.6",
-    "tailwindcss": "^3.4.10"
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "tailwindcss": "^3.4.13"
   },
   "bugs": {
     "url": "https://github.com/jamesmcewan/mcwn/issues"
