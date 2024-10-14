@@ -3,7 +3,7 @@
 export default $config({
   app(input) {
     return {
-      name: "mcwn",
+      name: "mcwndotdev",
       removal: input?.stage === "main" ? "retain" : "remove",
       home: "aws",
       providers: {
@@ -15,7 +15,7 @@ export default $config({
   },
 
   async run() {
-    new sst.aws.StaticSite("mcwn-astro", {
+    new sst.aws.StaticSite("mcwndotdev-astro", {
       build: {
         command: "bun run build",
         output: "dist",
