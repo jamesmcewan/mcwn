@@ -32,11 +32,14 @@
   },
   "scripts": {
     "build": "astro build",
-    "preview": "astro preview",
-    "update-dependencies": "bunx @astrojs/upgrade;bunx npm-check-updates --upgrade && bun install",
     "dev": "astro dev",
     "format": "prettier . --write",
     "lint-staged": "lint-staged",
-    "prepare": "is-ci || husky"
+    "prepare": "is-ci || husky",
+    "preview": "astro preview",
+    "update-dependencies": "bunx @astrojs/upgrade;bunx npm-check-updates --upgrade && bun install"
+  },
+  "dependencies": {
+    "sst": "3.2.16"
   }
 }
