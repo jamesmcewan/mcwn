@@ -29,12 +29,12 @@ export default $config({
               redirects: [
                 "jamesmcewan.co.uk",
                 "jamesmcewan.net",
-                "defuser.net",
-                "mcewan.foo",
-                "diabolical.dev",
-                "mcwn.me",
-                "jmce.me",
-                "mcwn.io",
+                // "defuser.net",
+                //   "mcewan.foo",
+                //   "diabolical.dev",
+                //   "mcwn.me",
+                //   "jmce.me",
+                //   "mcwn.io",
               ],
               dns: sst.aws.dns(),
             }
