@@ -25,9 +25,8 @@ export default $config({
         $app.stage === "main"
           ? {
               name: "mcwn.dev",
+              aliases: ["mcewan.io", "jamesmcewan.com"],
               redirects: [
-                "mcewan.io",
-                "jamesmcewan.com",
                 "jamesmcewan.co.uk",
                 "jamesmcewan.net",
                 "defuser.net",
