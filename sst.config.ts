@@ -26,16 +26,16 @@ export default $config({
           ? {
               name: "mcwn.dev",
               aliases: ["mcewan.io", "jamesmcewan.com"],
-              redirects: [
-                "jamesmcewan.co.uk",
-                "jamesmcewan.net",
-                "defuser.net",
-                "mcewan.foo",
-                "diabolical.dev",
-                "mcwn.me",
-                "jmce.me",
-                "mcwn.io",
-              ],
+              // redirects: [
+              //   "jamesmcewan.co.uk",
+              //   "jamesmcewan.net",
+              //   "defuser.net",
+              //   "mcewan.foo",
+              //   "diabolical.dev",
+              //   "mcwn.me",
+              //   "jmce.me",
+              //   "mcwn.io",
+              // ],
               dns: sst.aws.dns(),
             }
           : undefined,
