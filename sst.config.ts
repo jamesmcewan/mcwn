@@ -27,11 +27,11 @@ export default $config({
               name: "mcwn.dev",
               aliases: ["mcewan.io", "jamesmcewan.com"],
               redirects: [
-                "jamesmcewan.co.uk",
+                // "jamesmcewan.co.uk",
                 "jamesmcewan.net",
                 "defuser.net",
                 "mcewan.foo",
-                "diabolical.dev",
+                // "diabolical.dev",
                 "mcwn.me",
                 "jmce.me",
                 "mcwn.io",
