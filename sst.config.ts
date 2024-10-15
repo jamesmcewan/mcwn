@@ -35,8 +35,6 @@ export default $config({
                 "mcwn.me",
                 "jmce.me",
                 "mcwn.io",
-                "mightydinosaur.dev",
-                "mightydinosaur.net",
               ],
               dns: sst.aws.dns(),
             }
