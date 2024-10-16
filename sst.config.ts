@@ -26,7 +26,7 @@ export default $config({
           ? {
               name: "mcwn.dev",
               aliases: ["mcewan.io", "jamesmcewan.com"],
-              redirects: ["mcewan.foo", "mcwn.me", "jmce.me"],
+              redirects: ["mcwn.me", "jmce.me"],
               dns: sst.aws.dns(),
             }
           : undefined,
