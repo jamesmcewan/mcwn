@@ -25,7 +25,7 @@ export default $config({
         $app.stage === "main"
           ? {
               name: "mcwn.dev",
-              aliases: ["mcewan.io", "jamesmcewan.com"],
+              aliases: ["mcewan.io"],
               dns: sst.aws.dns(),
             }
           : undefined,
