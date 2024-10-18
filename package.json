@@ -38,8 +38,5 @@
     "prepare": "is-ci || husky",
     "preview": "astro preview",
     "update-dependencies": "bunx @astrojs/upgrade;bunx npm-check-updates --upgrade && bun install"
-  },
-  "dependencies": {
-    "sst": "3.2.16"
   }
 }
