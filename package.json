@@ -9,7 +9,7 @@
     "@astrojs/tailwind": "5.1.2",
     "@catppuccin/tailwindcss": "^0.1.6",
     "@tailwindcss/typography": "^0.5.15",
-    "astro": "4.16.2",
+    "astro": "4.16.6",
     "autoprefixer": "^10.4.20",
     "husky": "^9.1.6",
     "is-ci": "^3.0.1",
