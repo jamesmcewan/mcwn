@@ -4,6 +4,7 @@ import Head from "@/components/Head.astro";
 import Footer from "@/components/Footer.astro";
 import Links from "@/components/Links.astro";
 import PostHog from "@/components/PostHog.astro";
+import MightyDinosaur from "@/components/mighty-dinosaur.astro";
 const { content } = Astro.props;
 ---
 
@@ -38,6 +39,9 @@ const { content } = Astro.props;
               alt="James McEwan"
               class="rounded-3xl xl:max-w-md"
             />
+            <div class="max-w-md pt-6">
+              <MightyDinosaur />
+            </div>
           </div>
         </div>
       </div>
