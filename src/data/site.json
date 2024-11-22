@@ -16,6 +16,14 @@
       "url": "https://github.com/jamesmcewan"
     },
     {
+      "name": "bluesky/@mightydinosaur.dev",
+      "url": "https://bsky.app/profile/mightydinosaur.dev"
+    },
+    {
+      "name": "makerworld/@mightydinosaur",
+      "url": "https://makerworld.com/en/@mightydinosaur"
+    },
+    {
       "name": "mastodon/@mcwn@social.lol",
       "url": "https://social.lol/@mcwn"
     },
@@ -26,11 +34,6 @@
     {
       "name": "letterboxd/mcwn",
       "url": "https://letterboxd.com/mcwn/"
-    },
-    { "name": "bluesky/@mcwn.dev", "url": "https://bsky.app/profile/mcwn.dev" },
-    {
-      "name": "threads/@jamesmcewan",
-      "url": "https://www.threads.net/@jamesmcewan"
     },
     {
       "name": "insta/jamesmcewan",
