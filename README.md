@@ -1,11 +1,11 @@
-# mcwn
+# mcwn aka mighty dinosaur
 
-James McEwan's personal site [https://jamesmcewan.com](https://jamesmcewan.com)
+James McEwan's personal site [https://mightydinosaur.dev](https://mightydinosaur.dev)
 
 ## Uses
 
 - THE FUTURE aka [Astro static site generator](https://astro.build).
-- Illustration by [yours truly](https://draws.jamesmcewan.com).
+- Illustration by [yours truly](https://draws.mightydinosaur.dev).
 
 ## 👓
 
