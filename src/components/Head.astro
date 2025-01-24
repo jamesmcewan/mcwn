@@ -5,7 +5,6 @@ import Icons from "./Icons.astro";
 const { content, site } = Astro.props;
 ---
 
+<Icons favicons={site.favicons} appletouch={site.appletouch} />
 <Meta description={site.description} themeColor={site.themeColor} />
 <title>{content.title} | {site.title}</title>
-
-<Icons favicons={site.favicons} />
