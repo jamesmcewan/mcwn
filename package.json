@@ -38,8 +38,5 @@
     "prepare": "is-ci || husky",
     "preview": "astro preview",
     "update-dependencies": "bunx @astrojs/upgrade;bunx npm-check-updates --upgrade && bun install"
-  },
-  "dependencies": {
-    "@astrojs/netlify": "^6.1.0"
   }
 }
