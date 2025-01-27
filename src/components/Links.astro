@@ -3,14 +3,14 @@ import site from "@/data/site.json";
 ---
 
 <div class="mt-12">
-  <ul class="grid grid-cols-2 gap-2">
+  <ul class="grid gap-2 sm:grid-cols-2">
     {
       site.elsewhere.map((link) => (
         <li>
           <a
             href={link.url}
             rel="me"
-            class="text-md block rounded-lg bg-crust p-6 font-rethink font-light text-rosewater hover:text-pink"
+            class="text-md bg-crust font-rethink text-rosewater hover:text-pink block rounded-lg p-6 font-light"
           >
             {link.name}
           </a>
@@ -22,7 +22,7 @@ import site from "@/data/site.json";
         <li>
           <a
             href={link.url}
-            class="text-md block rounded-lg bg-crust p-6 font-rethink font-light text-rosewater hover:text-pink"
+            class="text-md bg-crust font-rethink text-rosewater hover:text-pink block rounded-lg p-6 font-light"
             rel="me"
           >
             {link.name}
