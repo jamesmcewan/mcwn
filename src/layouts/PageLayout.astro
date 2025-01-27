@@ -1,5 +1,5 @@
 ---
-import site from "@/data/site.json";
+import site from "@/data/site";
 import Head from "@/components/Head.astro";
 import Footer from "@/components/Footer.astro";
 import Links from "@/components/Links.astro";
@@ -19,12 +19,12 @@ const { content } = Astro.props;
     />
     <Head {site} {content} />
   </head>
-  <body class="mocha bg-mantle">
+  <body class="bg-tn-crust">
     <div class="my-12 px-4 md:container md:mx-auto">
       <div class="xl:flex xl:gap-12">
         <div class="xl:order-1 xl:flex-1">
           <main
-            class="prose prose-lg font-rethink text-text prose-headings:font-rethink prose-headings:font-extrabold prose-headings:italic prose-headings:text-text prose-a:text-pink prose-a:no-underline prose-a:hover:text-flamingo font-light"
+            class="prose prose-lg font-rethink text-tn-text prose-headings:font-rethink prose-headings:font-extrabold prose-headings:italic prose-headings:text-tn-text prose-a:text-tn-pink prose-a:no-underline prose-a:hover:text-tn-purple1 font-light"
           >
             <slot />
           </main>

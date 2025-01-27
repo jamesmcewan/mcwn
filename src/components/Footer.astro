@@ -1,5 +1,5 @@
 ---
-import site from "@/data/site.json";
+import site from "@/data/site";
 
 export interface Props {
   author: string;
@@ -9,11 +9,11 @@ const { author } = Astro.props;
 ---
 
 <footer class="my-12">
-  <div class="font-rethink text-lg font-light text-text">
+  <div class="font-rethink text-tn-text text-lg font-light">
     &copy; 2022 {author}.<br />Built with {
       site.tooling.map((tool) => (
         <span>
-          <a href={tool.url} class="text-pink hover:text-flamingo">
+          <a href={tool.url} class="text-tn-blue1 hover:text-tn-blue0">
             {tool.name}
           </a>
           ,{" "}
