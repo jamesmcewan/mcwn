@@ -1,5 +1,5 @@
 ---
-title: Hi
+title: James McEwan
 layout: ../layouts/PageLayout.astro
 permalink: /
 lastmod: 2022-06-24T16:52:12.234Z

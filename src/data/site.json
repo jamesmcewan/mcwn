@@ -1,9 +1,9 @@
 {
   "baseURL": "https://mightydinosaur.dev/",
   "languageCode": "en-gb",
-  "title": "James McEwan - mightydinosaur.dev",
+  "title": "mightydinosaur.dev",
   "author": "James McEwan",
-  "subtitle": "James McEwan - mightydinosaur.dev",
+  "subtitle": "James McEwan is a mighty dinosaur",
   "description": "James McEwan is a developer and creative based in Edinburgh, Scotland",
   "themeColor": {
     "light": "#f5f3ff",
