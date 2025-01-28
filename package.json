@@ -37,5 +37,8 @@
     "prepare": "is-ci || husky",
     "preview": "astro preview",
     "update-dependencies": "bunx @astrojs/upgrade;bun update"
+  },
+  "dependencies": {
+    "@ascorbic/feed-loader": "^1.0.4"
   }
 }
