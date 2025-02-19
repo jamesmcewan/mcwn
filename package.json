@@ -39,6 +39,7 @@
     "update-dependencies": "bunx @astrojs/upgrade;bun update"
   },
   "dependencies": {
-    "@ascorbic/feed-loader": "^1.0.4"
+    "@ascorbic/feed-loader": "^1.0.4",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2"
   }
 }

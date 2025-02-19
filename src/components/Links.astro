@@ -24,8 +24,9 @@ import site from '@/data/site'
             href={link.url}
             class="text-md bg-tn-mantle font-rethink text-tn-purple1 hover:text-tn-purple0 block rounded-lg p-6 font-light"
             rel="me"
+            title={link.icon}
           >
-            {link.name}
+            <i class={`fa-brands fa-${link.icon}`} />/{link.name}
           </a>
         </li>
       ))

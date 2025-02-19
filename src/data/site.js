@@ -15,32 +15,39 @@ export default {
   android: [192, 512],
   social: [
     {
-      name: 'github/ jamesmcewan',
+      name: 'jamesmcewan',
       url: 'https://github.com/jamesmcewan',
+      icon: 'github',
     },
     {
-      name: 'bsky/ @mightydinosaur.dev',
+      name: '@mightydinosaur.dev',
       url: 'https://bsky.app/profile/mightydinosaur.dev',
+      icon: 'bluesky',
     },
     {
-      name: 'mw/ @mightydinosaur',
+      name: '@mightydinosaur',
       url: 'https://makerworld.com/en/@mightydinosaur',
+      icon: 'makerworld',
     },
     {
-      name: 'masto/ @mcwn@social.lol',
+      name: '@mcwn@social.lol',
       url: 'https://social.lol/@mcwn',
+      icon: 'mastodon',
     },
     {
-      name: 'linkedin/ jamesmcewan',
+      name: 'jamesmcewan',
       url: 'https://www.linkedin.com/in/jamesmcewan/',
+      icon: 'linkedin',
     },
     {
-      name: 'letterboxd/ mcwn',
+      name: 'mcwn',
       url: 'https://letterboxd.com/mcwn/',
+      icon: 'letterboxd',
     },
     {
-      name: 'insta/ jamesmcewan',
+      name: 'jamesmcewan',
       url: 'https://www.instagram.com/jamesmcewan/',
+      icon: 'instagram',
     },
   ],
   elsewhere: [
