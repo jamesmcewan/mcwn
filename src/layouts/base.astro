@@ -1,75 +1,32 @@
 ---
 import { ClientRouter } from 'astro:transitions'
+import site from '@/data/site'
+import Head from '@/components/Head.astro'
 import MightyDinosaur from '../components/mighty-dinosaur.astro'
 import '../styles/global.css'
+import Footer from '@/components/Footer.astro'
 
-const { description } = Astro.props
+const { title } = Astro.props
 ---
 
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="me" href="https://social.lol/@mcwn" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <meta name="description" content={description} />
-    <title>(one)zom</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/fonts/cartridge.css" as="font" />
-    <link rel="stylesheet" href="/video.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="onezom RSS Feed"
-      href="/rss.xml"
-    />
+    <Head {site} {title} />
     <ClientRouter />
   </head>
   <body class="bg-tn-crust">
     <div class="mx-auto max-w-2xl px-4 sm:px-6 md:px-8">
       <div class="grid gap-8 pt-8 pb-8">
-        <header>
-          <h1
-            class="font-cartridgeboldrough text-3xl font-normal uppercase md:text-5xl"
-          >
-            <a href="/" class="text-tn-overlay0 hover:text-tn-pink"
-              ><span class="text-tn-surface1">(</span>one<span
-                class="text-tn-surface2">)</span
-              >zom<span class="text-tn-red0">.</span></a
-            >
-          </h1>
-          <p class="text-md font-cartridgeboldrough text-tn-red0 mt-1">
-            <abbr title="Also known as">AKA</abbr>: One Zombie in a billion
-          </p>
-        </header>
+        <div>
+          <a href="/" title="Mighty Dinosaur">
+            <MightyDinosaur />
+          </a>
+        </div>
+
         <slot />
       </div>
-      <footer
-        class="font-dmsans text-tn-overlay0 mb-8 flex items-center gap-4 text-sm"
-      >
-        <div>
-          <p>Built with love, pixels, and delicious brains</p>
-          <p>
-            &copy; {new Date().getFullYear().toString()}
-            <a href="/about/" class="text-tn-orange hover:text-tn-red0" rel="me"
-              >James McEwan</a
-            >
-          </p>
-        </div>
-      </footer>
-      <div class="mb-8 h-auto w-full">
-        <MightyDinosaur />
-      </div>
+
+      <Footer author={site.author} />
     </div>
   </body>
 </html>

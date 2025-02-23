@@ -2,10 +2,10 @@
 import Meta from './Meta.astro'
 import Icons from './Icons.astro'
 
-const { content, site } = Astro.props
+const { title, site } = Astro.props
 ---
 
 <link rel="me" href="https://social.lol/@mcwn" />
 <Icons favicons={site.favicons} appletouch={site.appletouch} />
 <Meta description={site.description} themeColor={site.themeColor} />
-<title>{content.title} - {site.title}</title>
+<title>{title} - {site.title}</title>

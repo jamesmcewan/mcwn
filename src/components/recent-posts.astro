@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content'
+import Category from './category.astro'
+const posts = (
+  await getCollection('posts', ({ data }) => {
+    return data.draft !== true
+  })
+).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+---
+
+<h1 class="font-cartridgeregular text-tn-purple1 mb-2 text-2xl">
+  Recent posts
+</h1>
+<ul class="grid gap-6">
+  {
+    posts.map((post) => {
+      const { title, category, description } = post.data
+      return (
+        <li>
+          <a href={`/post/${post.slug}/`} class="block rounded-3xl">
+            <h2 class="text-md font-cartridgeregular text-tn-green hover:text-tn-teal0 md:text-lg">
+              {category && <Category>{category}:</Category>} {title}
+            </h2>
+            <p class="text-md font-rethink text-tn-text">{description}</p>
+          </a>
+        </li>
+      )
+    })
+  }
+</ul>

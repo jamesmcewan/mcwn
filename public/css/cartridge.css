@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'cartridgebold';
+  src:
+    url('/webfonts/cartridge-bold-webfont.woff2') format('woff2'),
+    url('/webfonts/cartridge-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'cartridgebold_rough';
+  src:
+    url('/webfonts/cartridge-boldrough-webfont.woff2') format('woff2'),
+    url('/webfonts/cartridge-boldrough-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'cartridgeregular';
+  src:
+    url('/webfonts/cartridge-regular-webfont.woff2') format('woff2'),
+    url('/webfonts/cartridge-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'cartridgerough';
+  src:
+    url('/webfonts/cartridge-rough-webfont.woff2') format('woff2'),
+    url('/webfonts/cartridge-rough-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
