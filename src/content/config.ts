@@ -1,10 +1,12 @@
-import { feedLoader } from '@ascorbic/feed-loader'
-import { defineCollection } from 'astro:content'
+import { z, defineCollection } from 'astro:content'
+import { rssSchema } from '@astrojs/rss'
 
-const zom = defineCollection({
-  loader: feedLoader({
-    url: 'https://zom.sh/rss.xml',
+const posts = defineCollection({
+  schema: rssSchema.extend({
+    draft: z.boolean().optional(),
+    category: z.string().optional(),
+    tags: z.array(z.string()).optional(),
   }),
 })
 
-export const collections = { zom }
+export const collections = { posts }

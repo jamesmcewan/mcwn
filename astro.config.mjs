@@ -2,10 +2,8 @@ import { defineConfig } from 'astro/config'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  experiments: {
-    contentLayer: true,
-  },
   output: 'static',
+  redirects: { '/posts/[...slug]': '/post/[...slug]' },
   site: 'https://mightydinosaur.dev/',
   vite: {
     plugins: [tailwindcss()],

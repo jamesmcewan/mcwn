@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content'
+import Base from '../../layouts/base.astro'
+import Prose from '../../components/prose.astro'
+import Back from '../../components/back.astro'
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts')
+  const published = posts.filter((post) => !post.data.draft)
+  return published.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }))
+}
+
+const { post } = Astro.props
+const { Content } = await post.render()
+const { title, category, description } = post.data
+---
+
+<Base {description}>
+  <Prose element="article" {title} {category}>
+    <Content />
+  </Prose>
+
+  <Back />
+</Base>

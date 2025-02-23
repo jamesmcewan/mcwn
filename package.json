@@ -5,20 +5,6 @@
     "type": "git",
     "url": "git+https://github.com/jamesmcewan/mcwn.git"
   },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4.0.6",
-    "@tailwindcss/typography": "^0.5.16",
-    "@tailwindcss/vite": "^4.0.6",
-    "astro": "^5.3.0",
-    "husky": "^9.1.7",
-    "is-ci": "^4.1.0",
-    "lint-staged": "^15.4.3",
-    "postcss": "^8.5.2",
-    "prettier": "^3.5.1",
-    "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^4.0.6"
-  },
   "bugs": {
     "url": "https://github.com/jamesmcewan/mcwn/issues"
   },
@@ -39,7 +25,25 @@
     "update-dependencies": "bunx @astrojs/upgrade;bun update"
   },
   "dependencies": {
-    "@ascorbic/feed-loader": "^1.0.4",
-    "@fortawesome/free-brands-svg-icons": "^6.7.2"
+    "@astrojs/rss": "^4.0.11",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/postcss": "^4.0.6",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.0.6",
+    "@types/markdown-it": "^14.1.2",
+    "@types/sanitize-html": "^2.13.0",
+    "astro": "^5.3.0",
+    "husky": "^9.1.7",
+    "is-ci": "^4.1.0",
+    "lint-staged": "^15.4.3",
+    "markdown-it": "^14.1.0",
+    "postcss": "^8.5.2",
+    "prettier": "^3.5.1",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "sanitize-html": "^2.14.0",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^4.0.6"
   }
 }
