@@ -1,14 +1,14 @@
 {
-  "name": "@jamesmcewan/mcwn",
+  "name": "mighty-dinosaur",
   "version": "9.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jamesmcewan/mcwn.git"
+    "url": "git+https://github.com/jamesmcewan/mighty-dinosaur.git"
   },
   "bugs": {
-    "url": "https://github.com/jamesmcewan/mcwn/issues"
+    "url": "https://github.com/jamesmcewan/mighty-dinosaur/issues"
   },
-  "homepage": "https://github.com/jamesmcewan/mcwn#readme",
+  "homepage": "https://github.com/jamesmcewan/mighty-dinosaur",
   "license": "MIT",
   "lint-staged": {
     "*.md|*.html|*.json|*.astro": [
