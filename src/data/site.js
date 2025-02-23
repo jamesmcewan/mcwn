@@ -34,11 +34,11 @@ export default {
       url: 'https://social.lol/@mcwn',
       icon: 'mastodon',
     },
-    {
-      name: 'jamesmcewan',
-      url: 'https://www.linkedin.com/in/jamesmcewan/',
-      icon: 'linkedin',
-    },
+    // {
+    //   name: 'jamesmcewan',
+    //   url: 'https://www.linkedin.com/in/jamesmcewan/',
+    //   icon: 'linkedin',
+    // },
     {
       name: 'mcwn',
       url: 'https://letterboxd.com/mcwn/',
@@ -54,10 +54,6 @@ export default {
     {
       name: 'draws - portfolio',
       url: 'https://draws.mightydinosaur.dev/',
-    },
-    {
-      name: '[one]zom - writing',
-      url: 'https://zom.sh/',
     },
     {
       name: 'comics - new comics app',

@@ -18,7 +18,7 @@ const { Content } = await post.render()
 const { title, category, description } = post.data
 ---
 
-<Base {description}>
+<Base {description} {title}>
   <Prose element="article" {title} {category}>
     <Content />
   </Prose>
