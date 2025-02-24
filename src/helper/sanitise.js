@@ -53,4 +53,4 @@ const options = {
   },
 }
 
-export const santise = (content) => sanitizeHtml(content, options)
+export const sanitise = (content) => sanitizeHtml(content, options)
