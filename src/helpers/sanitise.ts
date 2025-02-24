@@ -1,6 +1,6 @@
 import sanitizeHtml from 'sanitize-html'
 
-const options = {
+const options: sanitizeHtml.IOptions = {
   allowedTags: sanitizeHtml.defaults.allowedTags.concat(['iframe']),
   allowedAttributes: {
     ...sanitizeHtml.defaults.allowedAttributes,
@@ -16,7 +16,7 @@ const options = {
   },
   allowedIframeHostnames: ['www.youtube.com', 'youtube.com', 'youtu.be'],
   transformTags: {
-    iframe: (tagName, attribs) => {
+    iframe: (tagName: string, attribs: { [key: string]: string }) => {
       // Convert any youtube.com/watch?v= URLs to embed format
       if (attribs.src) {
         const url = new URL(attribs.src)
@@ -53,4 +53,5 @@ const options = {
   },
 }
 
-export const sanitise = (content) => sanitizeHtml(content, options)
+export const sanitise = (content: string): string =>
+  sanitizeHtml(content, options)

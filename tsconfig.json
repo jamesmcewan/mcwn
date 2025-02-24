@@ -4,11 +4,14 @@
     "strictNullChecks": true,
     "allowJs": true,
     "baseUrl": ".",
-    "moduleResolution": "node",
     "paths": {
       "@/components/*": ["src/components/*"],
+      "@/content/*": ["src/content/*"],
+      "@/data/*": ["src/data/*"],
+      "@/helpers/*": ["src/helpers/*"],
       "@/layouts/*": ["src/layouts/*"],
-      "@/data/*": ["src/data/*"]
+      "@/pages/*": ["src/pages/*"],
+      "@/styles/*": ["src/styles/*"]
     }
   }
 }

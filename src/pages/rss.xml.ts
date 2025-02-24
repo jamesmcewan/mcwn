@@ -1,4 +1,5 @@
 import rss from '@astrojs/rss'
+import type { RSSFeedItem } from '@astrojs/rss'
 import { getCollection } from 'astro:content'
 import MarkdownIt from 'markdown-it'
 
@@ -11,6 +12,9 @@ const parser = new MarkdownIt({
 parser.renderer.rules.image = function (tokens, idx, options, env, self) {
   const token = tokens[idx]
   const srcIndex = token.attrIndex('src')
+  if (srcIndex === -1 || !token.attrs) {
+    return self.renderToken(tokens, idx, options)
+  }
   const src = token.attrs[srcIndex][1]
   const alt = token.content || ''
 
@@ -21,7 +25,19 @@ parser.renderer.rules.image = function (tokens, idx, options, env, self) {
   return `<img src="${absoluteSrc}" alt="${alt}" />`
 }
 
-async function getItems() {
+interface Post {
+  data: {
+    title: string
+    pubDate: string
+    description: string
+    draft?: boolean
+  }
+  body: string
+  slug: string
+}
+
+async function getItems(): Promise<RSSFeedItem[]> {
+  // Fix: Remove the type parameter from getCollection and cast the result
   const allPosts = await getCollection('posts')
   const publishedOnly = allPosts.filter((post) => post.data.draft !== true)
 

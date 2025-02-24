@@ -1,0 +1,42 @@
+---
+import Footer from '@/components/ui/footer.astro'
+import Links from '@/components/ui/links.astro'
+import MightyDinosaur from '@/components/ui/mighty-dinosaur.astro'
+import RecentPosts from '@/components/ui/recent-posts.astro'
+import Body from '@/components/structure/body.astro'
+
+const { content } = Astro.props
+---
+
+<Body title={content.title}>
+  <div class="my-12 px-4 md:container md:mx-auto">
+    <div class="lg:flex lg:gap-12">
+      <div class="lg:flex-1 xl:order-1">
+        <main
+          class="prose prose-lg font-rethink text-tn-text prose-headings:font-cartridgeboldrough prose-headings:font-extrabold prose-headings:text-tn-text prose-a:text-tn-pink prose-a:no-underline prose-a:hover:text-tn-purple1 font-light"
+        >
+          <slot />
+        </main>
+        <div class="mt-12">
+          <RecentPosts />
+        </div>
+        <Links />
+      </div>
+      <div
+        class="flex items-center justify-center xl:order-2 xl:flex-1 xl:items-start"
+      >
+        <div class="mt-12 w-full xl:mt-0">
+          <img
+            src="/images/james.webp"
+            alt="James McEwan"
+            class="rounded-3xl xl:max-w-md"
+          />
+          <div class="max-w-md pt-6">
+            <MightyDinosaur />
+          </div>
+        </div>
+      </div>
+    </div>
+    <Footer />
+  </div>
+</Body>

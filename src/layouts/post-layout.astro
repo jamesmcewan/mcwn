@@ -1,0 +1,21 @@
+---
+import Body from '@/components/structure/body.astro'
+import MightyDinosaur from '../components/ui/mighty-dinosaur.astro'
+import Footer from '@/components/ui/footer.astro'
+
+const { title } = Astro.props
+---
+
+<Body {title}>
+  <div class="mx-auto max-w-2xl px-4 sm:px-6 md:px-8">
+    <div class="grid gap-8 pt-8 pb-8">
+      <div>
+        <a href="/" title="Mighty Dinosaur">
+          <MightyDinosaur />
+        </a>
+      </div>
+      <slot />
+    </div>
+    <Footer />
+  </div>
+</Body>

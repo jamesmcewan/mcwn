@@ -1,11 +1,11 @@
 ---
-import site from '@/data/site'
+import siteConfig from '@/data/site-config'
 ---
 
 <div class="mt-12">
   <ul class="grid gap-2 sm:grid-cols-2">
     {
-      site.elsewhere.map((link) => (
+      siteConfig.elsewhere.map((link) => (
         <li>
           <a
             href={link.url}
@@ -18,7 +18,7 @@ import site from '@/data/site'
       ))
     }
     {
-      site.social.map((link) => (
+      siteConfig.social.map((link) => (
         <li>
           <a
             href={link.url}

@@ -1,7 +1,19 @@
 ---
 import { getCollection } from 'astro:content'
 import Category from './category.astro'
-const posts = (
+
+interface Post {
+  data: {
+    title: string
+    category?: string
+    description: string
+    pubDate: Date
+    draft?: boolean
+  }
+  slug: string
+}
+
+const posts: Post[] = (
   await getCollection('posts', ({ data }) => {
     return data.draft !== true
   })

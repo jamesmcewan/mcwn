@@ -1,4 +1,39 @@
-export default {
+export interface SocialLink {
+  name: string
+  url: string
+  icon: string
+}
+
+export interface ElsewhereLink {
+  name: string
+  url: string
+}
+
+export interface ToolingLink {
+  name: string
+  url: string
+}
+
+export interface SiteConfig {
+  baseURL: string
+  languageCode: string
+  title: string
+  author: string
+  subtitle: string
+  description: string
+  themeColor: {
+    light: string
+    dark: string
+  }
+  favicons: number[]
+  appletouch: number[]
+  android: number[]
+  social: SocialLink[]
+  elsewhere: ElsewhereLink[]
+  tooling: ToolingLink[]
+}
+
+const siteConfig: SiteConfig = {
   baseURL: 'https://mightydinosaur.dev/',
   languageCode: 'en-gb',
   title: 'mightydinosaur.dev',
@@ -75,3 +110,5 @@ export default {
     },
   ],
 }
+
+export default siteConfig
