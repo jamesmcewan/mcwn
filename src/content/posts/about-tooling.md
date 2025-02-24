@@ -26,15 +26,19 @@ I live in the terminal these days. My editor of choice is Vim, more specifically
 For me, after getting over the learning curve (which admittedly was _years_), the modal style of editing finally clicked, and now I find it the most efficient way to work with text.
 
 - editor: [Neovim](https://neovim.io/) w/[LazyVim config](https://www.lazyvim.org/)
-- terminal emulator: [wezterm](https://wezfurlong.org/wezterm/index.html)
+- terminal emulator: [Ghostty](https://ghostty.org/)
 - terminal multiplexer: [tmux](https://github.com/tmux/tmux)
 - shell: [zsh](https://www.zsh.org/) with [Oh-My-Zsh](https://ohmyz.sh/) and [Starship prompt](https://starship.rs/)
-- fonts: [Berkeley Mono](https://berkeleygraphics.com/typefaces/berkeley-mono/) and [Symbols only Nerd Font](https://www.nerdfonts.com/)
-- themes of choice: [Catppuccin - Mocha](https://github.com/catppuccin/catppuccin) / [Tokyo Night - Night](https://github.com/folke/tokyonight.nvim)
-- browser: [Arc](https://arc.net) / Safari (do you even need a link?)
+- fonts: [Berkeley Mono](https://berkeleygraphics.com/typefaces/berkeley-mono/)
+- theme of choice: [Tokyo Night - Night](https://github.com/folke/tokyonight.nvim)
+- browser: [Arc](https://arc.net) (for now...) / [Safari](https://apple.com/safari)
 
 Of course, sometimes It's easier to use a desktop app, I'm really enjoying [Zed](https://zed.dev), a new editor from the folks behind Atom.
 
-## Frameworks... languages
+## Built with
 
-This site uses Astro as the framework of choice. I love the build speed, and the Astro templating language is great.
+This site uses [Astro](https://astro.build) as the framework of choice. I love the build speed, and the Astro templating language is great.
+
+Styling wise, I'm using [Tailwind CSS](https://tailwindcss.com), which I've been using for a while now. As an old CSS hand, it took me a while to get used to the utility-first approach, but now I find it a great way to work for me.
+
+Everything holds together with [Bun](https://bun.sh).
