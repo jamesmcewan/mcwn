@@ -5,10 +5,10 @@ import MightyDinosaur from '@/components/ui/mighty-dinosaur.astro'
 import RecentPosts from '@/components/ui/recent-posts.astro'
 import Body from '@/components/structure/body.astro'
 
-const { content } = Astro.props
+const { title } = Astro.props
 ---
 
-<Body title={content.title}>
+<Body title={title}>
   <div class="my-12 px-4 md:container md:mx-auto">
     <div class="lg:flex lg:gap-12">
       <div class="lg:flex-1 xl:order-1">

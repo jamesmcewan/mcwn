@@ -9,8 +9,23 @@ const postSchema = rssSchema.extend({
 
 export type Post = z.infer<typeof postSchema>
 
+const pageSchema = z.object({
+  title: z.string(),
+  description: z.string().optional(),
+  type: z.string().optional(),
+  date: z.date().optional(),
+  lastmod: z.date().optional(),
+  permalink: z.string().optional(),
+})
+
+export type Page = z.infer<typeof pageSchema>
+
 const posts = defineCollection({
   schema: postSchema,
 })
 
-export const collections = { posts }
+const pages = defineCollection({
+  schema: pageSchema,
+})
+
+export const collections = { posts, pages }

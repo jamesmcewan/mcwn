@@ -1,6 +1,5 @@
 ---
 title: James McEwan
-layout: ../layouts/page-layout.astro
 permalink: /
 lastmod: 2022-06-24T16:52:12.234Z
 type: default
