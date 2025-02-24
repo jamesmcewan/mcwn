@@ -1,6 +1,5 @@
 import rss from '@astrojs/rss'
 import { getCollection } from 'astro:content'
-import sanitizeHtml from 'sanitize-html'
 import MarkdownIt from 'markdown-it'
 import { santise } from 'src/helper/santise'
 const parser = new MarkdownIt()
@@ -14,7 +13,7 @@ async function getItems() {
       title: post.data.title,
       pubDate: post.data.pubDate,
       description: post.data.description,
-      content: santise(parser.render(post.body)),
+      content: parser.render(post.body),
       link: `/posts/${post.slug}/`,
     }
   })
