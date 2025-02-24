@@ -13,7 +13,9 @@ async function getItems() {
       title: post.data.title,
       pubDate: post.data.pubDate,
       description: post.data.description,
-      content: sanitizeHtml(parser.render(post.body)),
+      content: sanitizeHtml(parser.render(post.body), {
+        allowedIframeHostnames: ['www.youtube.com'],
+      }),
       link: `/posts/${post.slug}/`,
     }
   })
