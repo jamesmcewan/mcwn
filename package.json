@@ -26,8 +26,6 @@
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.11",
-    "@fortawesome/free-brands-svg-icons": "^6.7.2",
-    "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/postcss": "^4.0.8",
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.0.8",
@@ -43,7 +41,6 @@
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "sanitize-html": "^2.14.0",
-    "sharp": "^0.33.5",
     "tailwindcss": "^4.0.8"
   }
 }

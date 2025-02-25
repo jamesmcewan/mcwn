@@ -21,10 +21,6 @@ export interface SiteConfig {
   author: string
   subtitle: string
   description: string
-  themeColor: {
-    light: string
-    dark: string
-  }
   favicons: number[]
   appletouch: number[]
   android: number[]
@@ -41,10 +37,6 @@ const siteConfig: SiteConfig = {
   subtitle: 'James McEwan is a mighty dinosaur',
   description:
     'James McEwan is a developer and creative based in Edinburgh, Scotland',
-  themeColor: {
-    light: '#f5f3ff',
-    dark: '#18181b',
-  },
   favicons: [16, 32, 96, 128, 196],
   appletouch: [57, 60, 72, 76, 114, 120, 144, 152, 167, 180],
   android: [192, 512],

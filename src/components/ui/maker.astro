@@ -2,6 +2,7 @@
 import siteConfig from '@/data/site-config'
 import SectionHeading from './section-heading.astro'
 import Block from './block.astro'
+import LinkBlock from './link-block.astro'
 ---
 
 <Block>
@@ -10,13 +11,7 @@ import Block from './block.astro'
     {
       siteConfig.maker.map((link) => (
         <li>
-          <a
-            href={link.url}
-            rel="me"
-            class="text-md bg-tn-mantle font-rethink text-tn-purple1 hover:text-tn-purple0 block rounded-lg p-6 font-light"
-          >
-            {link.name}
-          </a>
+          <LinkBlock href={link.url}>{link.name}</LinkBlock>
         </li>
       ))
     }

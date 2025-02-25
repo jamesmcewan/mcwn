@@ -1,11 +1,13 @@
 ---
 import siteConfig from '@/data/site-config'
 import Meta from '@/components/structure/meta.astro'
+import Styles from '@/components/structure/styles.astro'
 import Favicons from '@/components/structure/favicons.astro'
 
 const { title } = Astro.props
 ---
 
 <Favicons favicons={siteConfig.favicons} appletouch={siteConfig.appletouch} />
-<Meta description={siteConfig.description} themeColor={siteConfig.themeColor} />
+<Styles />
+<Meta description={siteConfig.description} />
 <title>{title} - {siteConfig.title}</title>
