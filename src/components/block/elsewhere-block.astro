@@ -6,12 +6,17 @@ import LinkBlock from '@/components/block/link-block.astro'
 
 <section>
   <SectionHeadingBlock>Where to find me</SectionHeadingBlock>
-  <ul class="grid gap-2 lg:grid-cols-2">
+  <ul class="grid gap-4 lg:grid-cols-2">
     {
       siteConfig.elsewhere.map((link) => (
         <li>
-          <LinkBlock href={link.url}>
-            {link.icon} / {link.name}
+          <LinkBlock
+            href={link.url}
+            rel="me"
+            color="text-tn-orange"
+            hoverColor="hover:text-tn-yellow"
+          >
+            {link.name}
           </LinkBlock>
         </li>
       ))

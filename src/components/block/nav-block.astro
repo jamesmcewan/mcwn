@@ -1,0 +1,24 @@
+---
+import siteConfig from '@/data/site-config'
+import LinkBlock from '@/components/block/link-block.astro'
+---
+
+<nav>
+  <ul class="grid gap-6">
+    {
+      siteConfig.pages.map((link) => (
+        <li>
+          <LinkBlock
+            href={link.url}
+            cta
+            center
+            color="text-tn-blue1"
+            hoverColor="hover:text-tn-blue0"
+          >
+            {link.name}
+          </LinkBlock>
+        </li>
+      ))
+    }
+  </ul>
+</nav>

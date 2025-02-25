@@ -1,11 +1,16 @@
 ---
-const { href } = Astro.props
+const { href, cta, rel, center, color, hoverColor } = Astro.props
+const fontClasses = cta
+  ? 'font-cartridgeboldrough text-4xl lowercase'
+  : 'font-rethink text-md'
+
+const textAlign = center ? 'text-center' : ''
 ---
 
 <a
   href={href}
-  class="text-md bg-tn-mantle font-rethink text-tn-purple1 block rounded-xl p-6 font-light transition-colors duration-500 ease-in-out hover:brightness-110"
-  rel="me"
+  class={`bg-tn-mantle ${fontClasses} ${textAlign} ${color} ${hoverColor} block rounded-xl shadow-xl border-tn-base/50 border-2 p-6 font-light transition-colors duration-500 ease-in-out hover:brightness-110`}
+  rel={rel}
 >
   <slot />
 </a>

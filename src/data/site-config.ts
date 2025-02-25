@@ -1,15 +1,4 @@
-export interface ElsewhereLink {
-  name: string
-  url: string
-  icon: string
-}
-
-export interface MakerLink {
-  name: string
-  url: string
-}
-
-export interface ToolingLink {
+export interface Link {
   name: string
   url: string
 }
@@ -24,9 +13,10 @@ export interface SiteConfig {
   favicons: number[]
   appletouch: number[]
   android: number[]
-  elsewhere: ElsewhereLink[]
-  maker: MakerLink[]
-  tooling: ToolingLink[]
+  pages: Link[]
+  elsewhere: Link[]
+  maker: Link[]
+  tooling: Link[]
 }
 
 const siteConfig: SiteConfig = {
@@ -40,46 +30,44 @@ const siteConfig: SiteConfig = {
   favicons: [16, 32, 96, 128, 196],
   appletouch: [57, 60, 72, 76, 114, 120, 144, 152, 167, 180],
   android: [192, 512],
+  pages: [
+    {
+      name: 'Uses',
+      url: '/uses',
+    },
+  ],
   elsewhere: [
     {
-      name: 'jamesmcewan',
+      name: 'github / jamesmcewan',
       url: 'https://github.com/jamesmcewan',
-      icon: 'Github',
     },
     {
-      name: '@mightydinosaur.dev',
+      name: 'bsky / @mightydinosaur.dev',
       url: 'https://bsky.app/profile/mightydinosaur.dev',
-      icon: 'Bluesky',
     },
     {
-      name: '@mightydinosaur',
+      name: 'makerworld / @mightydinosaur',
       url: 'https://makerworld.com/en/@mightydinosaur',
-      icon: 'Makerworld',
     },
     {
-      name: '@Mightydino_2075078',
+      name: 'printables / @Mightydino_2075078',
       url: 'https://www.printables.com/@Mightydino_2075078',
-      icon: 'Printables',
     },
     {
-      name: '@mcwn@social.lol',
+      name: 'masto / @mcwn@social.lol',
       url: 'https://social.lol/@mcwn',
-      icon: 'Mastodon',
     },
     {
-      name: 'jamesmcewan',
+      name: 'linkedin / jamesmcewan',
       url: 'https://www.linkedin.com/in/jamesmcewan/',
-      icon: 'Linkedin',
     },
     {
-      name: 'mcwn',
+      name: 'letterboxd / mcwn',
       url: 'https://letterboxd.com/mcwn/',
-      icon: 'Letterboxd',
     },
     {
-      name: 'jamesmcewan',
+      name: 'insta / jamesmcewan',
       url: 'https://www.instagram.com/jamesmcewan/',
-      icon: 'Instagram',
     },
   ],
   maker: [

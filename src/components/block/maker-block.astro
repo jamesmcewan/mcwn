@@ -6,11 +6,19 @@ import LinkBlock from '@/components/block/link-block.astro'
 
 <section>
   <SectionHeadingBlock>Things I've made</SectionHeadingBlock>
-  <ul class="grid grid-cols-3 gap-2">
+  <ul class="grid grid-cols-3 gap-4">
     {
       siteConfig.maker.map((link) => (
         <li class="text-center">
-          <LinkBlock href={link.url}>{link.name}</LinkBlock>
+          <LinkBlock
+            href={link.url}
+            cta
+            rel="me"
+            color="text-tn-purple1"
+            hoverColor="hover:text-tn-purple0"
+          >
+            {link.name}
+          </LinkBlock>
         </li>
       ))
     }
