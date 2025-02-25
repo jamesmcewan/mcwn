@@ -3,8 +3,6 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --font-cartridgeregular: cartridgeregular, sans-serif;
-  --font-cartridgebold: cartridgebold, sans-serif;
   --font-cartridgerough: cartridgerough, sans-serif;
   --font-cartridgeboldrough: cartridgebold_rough, sans-serif;
   --font-rethink: Rethink Sans, sans-serif;

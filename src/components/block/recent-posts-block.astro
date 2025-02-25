@@ -3,7 +3,7 @@ import CategoryInline from '@/components/inline/category-inline.astro'
 import SectionHeadingBlock from '@/components/block/section-heading-block.astro'
 import getPosts from '@/data/get-posts'
 
-const posts = await getPosts()
+const posts = await getPosts(5)
 ---
 
 <section>
@@ -15,7 +15,7 @@ const posts = await getPosts()
         return (
           <li>
             <a href={`/post/${post.slug}/`} class="block rounded-3xl">
-              <h2 class="font-cartridgeregular text-tn-orange hover:text-tn-yellow text-lg">
+              <h2 class="font-cartridgerough text-tn-orange hover:text-tn-yellow text-lg">
                 {category && <CategoryInline>{category}:</CategoryInline>}{' '}
                 {title}
               </h2>

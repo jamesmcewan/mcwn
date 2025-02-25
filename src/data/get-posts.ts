@@ -1,15 +1,9 @@
 import { getCollection } from 'astro:content'
 import type { CollectionEntry } from 'astro:content'
 
-interface PostData {
-  draft?: boolean
-  pubDate: Date
-  title: string
-}
-
 type Post = CollectionEntry<'posts'>
 
-async function getPosts(): Promise<Post[]> {
+async function getPosts(max: number): Promise<Post[]> {
   const postsCollection = await getCollection(
     'posts',
     ({ data }) => data.draft !== true,
@@ -30,7 +24,7 @@ async function getPosts(): Promise<Post[]> {
     return bDate.valueOf() - aDate.valueOf()
   })
 
-  return posts
+  return posts.slice(0, max)
 }
 
 export default getPosts
