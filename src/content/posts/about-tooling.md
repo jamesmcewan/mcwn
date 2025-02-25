@@ -31,9 +31,11 @@ For me, after getting over the learning curve (which admittedly was _years_), th
 - shell: [zsh](https://www.zsh.org/) with [Oh-My-Zsh](https://ohmyz.sh/) and [Starship prompt](https://starship.rs/)
 - fonts: [Berkeley Mono](https://berkeleygraphics.com/typefaces/berkeley-mono/)
 - theme of choice: [Tokyo Night - Night](https://github.com/folke/tokyonight.nvim)
-- browser: [Arc](https://arc.net) (for now...) / [Safari](https://apple.com/safari)
+  Of course, sometimes It's easier to use a desktop app, I'm really enjoying [Zed](https://zed.dev), a new editor from the folks behind Atom.
 
-Of course, sometimes It's easier to use a desktop app, I'm really enjoying [Zed](https://zed.dev), a new editor from the folks behind Atom.
+## Other tools
+
+- browser: [Safari](https://apple.com/safari) - Honestly pretty much covers everything I need from a browser these days and features wise it's catching up.
 
 ## Built with
 
