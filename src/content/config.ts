@@ -12,6 +12,7 @@ export type Post = z.infer<typeof postSchema>
 const pageSchema = z.object({
   title: z.string(),
   description: z.string().optional(),
+  decoration: z.array(z.string()).optional(),
   type: z.string().optional(),
   date: z.date().optional(),
   lastmod: z.date().optional(),

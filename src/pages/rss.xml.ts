@@ -25,17 +25,6 @@ parser.renderer.rules.image = function (tokens, idx, options, env, self) {
   return `<img src="${absoluteSrc}" alt="${alt}" />`
 }
 
-interface Post {
-  data: {
-    title: string
-    pubDate: string
-    description: string
-    draft?: boolean
-  }
-  body: string
-  slug: string
-}
-
 async function getItems(): Promise<RSSFeedItem[]> {
   // Fix: Remove the type parameter from getCollection and cast the result
   const allPosts = await getCollection('posts')

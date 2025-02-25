@@ -1,0 +1,15 @@
+---
+import ImageBlock from '@/components/block/image-block.astro'
+import GridBlock from '@/components/block/grid-block.astro'
+
+const defaultImages = ['mighty']
+const { images = defaultImages } = Astro.props
+---
+
+<GridBlock extendClass="grid-cols-2 md:grid-cols-1">
+  {
+    images.map((image: string) => (
+      <ImageBlock src={`/images/${image}.webp`} alt={image} />
+    ))
+  }
+</GridBlock>

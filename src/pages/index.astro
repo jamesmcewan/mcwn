@@ -5,12 +5,12 @@ import RecentPostsBlock from '@/components/block/recent-posts-block.astro'
 import GridBlock from '@/components/block/grid-block.astro'
 import MakerBlock from '@/components/block/maker-block.astro'
 import ElsewhereBlock from '@/components/block/elsewhere-block.astro'
-import getPage from '@/utils/get-page'
+import getPage from '@/data/get-page'
 
-const { description, title, Content } = await getPage('index')
+const { description, title, Content, decoration } = await getPage('index')
 ---
 
-<PageLayout {description} {title}>
+<PageLayout {description} {title} {decoration}>
   <GridBlock>
     <MainBlock>
       <Content />
