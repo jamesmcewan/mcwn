@@ -1,0 +1,18 @@
+---
+import siteConfig from '@/data/site-config'
+import SectionHeadingBlock from '@/components/block/section-heading-block.astro'
+import LinkBlock from '@/components/block/link-block.astro'
+---
+
+<section>
+  <SectionHeadingBlock>Things I've made</SectionHeadingBlock>
+  <ul class="grid grid-cols-3 gap-2">
+    {
+      siteConfig.maker.map((link) => (
+        <li class="text-center">
+          <LinkBlock href={link.url}>{link.name}</LinkBlock>
+        </li>
+      ))
+    }
+  </ul>
+</section>

@@ -1,0 +1,14 @@
+---
+import Category from '@/components/inline/category-inline.astro'
+const { title, category } = Astro.props
+---
+
+<article
+  class="prose-md prose font-rethink text-tn-text md:prose-lg prose-headings:font-cartridgeregular prose-headings:text-tn-text prose-h1:font-cartridgebold prose-h1:text-4xl prose-h1:text-tn-orange prose-h2:text-tn-green prose-h3:text-tn-blue0 prose-a:text-tn-purple0 prose-a:hover:text-tn-purple1 prose-img:rounded-xl"
+>
+  <header>
+    {category && <Category>{category}</Category>}
+    {title && <h1>{title}</h1>}
+  </header>
+  <slot />
+</article>

@@ -1,0 +1,22 @@
+---
+import PageLayout from '@/layouts/page-layout.astro'
+import MainBlock from '@/components/block/main-block.astro'
+import RecentPostsBlock from '@/components/block/recent-posts-block.astro'
+import GridBlock from '@/components/block/grid-block.astro'
+import MakerBlock from '@/components/block/maker-block.astro'
+import ElsewhereBlock from '@/components/block/elsewhere-block.astro'
+import getPage from '@/utils/get-page'
+
+const { description, title, Content } = await getPage('index')
+---
+
+<PageLayout {description} {title}>
+  <GridBlock>
+    <MainBlock>
+      <Content />
+    </MainBlock>
+    <RecentPostsBlock />
+    <MakerBlock />
+    <ElsewhereBlock />
+  </GridBlock>
+</PageLayout>

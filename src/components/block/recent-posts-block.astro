@@ -1,0 +1,29 @@
+---
+import CategoryInline from '@/components/inline/category-inline.astro'
+import SectionHeadingBlock from '@/components/block/section-heading-block.astro'
+import getPosts from '@/utils/get-posts'
+
+const posts = await getPosts()
+---
+
+<section>
+  <SectionHeadingBlock> Recent posts </SectionHeadingBlock>
+  <ul class="grid gap-6">
+    {
+      posts.map((post) => {
+        const { title, category, description } = post.data
+        return (
+          <li>
+            <a href={`/post/${post.slug}/`} class="block rounded-3xl">
+              <h2 class="font-cartridgeregular text-tn-green hover:text-tn-teal0 text-lg">
+                {category && <CategoryInline>{category}:</CategoryInline>}{' '}
+                {title}
+              </h2>
+              <p class="text-md font-rethink text-tn-text">{description}</p>
+            </a>
+          </li>
+        )
+      })
+    }
+  </ul>
+</section>

@@ -1,0 +1,20 @@
+---
+import siteConfig from '@/data/site-config'
+import SectionHeadingBlock from '@/components/block/section-heading-block.astro'
+import LinkBlock from '@/components/block/link-block.astro'
+---
+
+<section>
+  <SectionHeadingBlock>Where to find me</SectionHeadingBlock>
+  <ul class="grid gap-2 lg:grid-cols-2">
+    {
+      siteConfig.elsewhere.map((link) => (
+        <li>
+          <LinkBlock href={link.url}>
+            {link.icon} / {link.name}
+          </LinkBlock>
+        </li>
+      ))
+    }
+  </ul>
+</section>

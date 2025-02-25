@@ -1,21 +1,19 @@
 ---
 import Body from '@/components/structure/body.astro'
-import MightyDinosaur from '@/components/ui/mighty-dinosaur.astro'
-import Footer from '@/components/ui/footer.astro'
+import MightyDinosaurBlock from '@/components/block/mighty-dinosaur-block.astro'
+import FooterBlock from '@/components/block/footer-block.astro'
+import GridBlock from '@/components/block/grid-block.astro'
+import WrapperBlock from '@/components/block/wrapper-block.astro'
 
 const { title } = Astro.props
 ---
 
 <Body {title}>
-  <div class="mx-auto max-w-2xl">
-    <div class="grid gap-8 pt-8 pb-8">
-      <div>
-        <a href="/" title="Mighty Dinosaur">
-          <MightyDinosaur />
-        </a>
-      </div>
+  <WrapperBlock>
+    <GridBlock>
+      <MightyDinosaurBlock />
       <slot />
-    </div>
-    <Footer />
-  </div>
+      <FooterBlock />
+    </GridBlock>
+  </WrapperBlock>
 </Body>

@@ -1,0 +1,9 @@
+---
+const { two } = Astro.props
+
+const cssClass = two ? 'md:col-span-2' : ''
+---
+
+<div class={cssClass}>
+  <slot />
+</div>
