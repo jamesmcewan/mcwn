@@ -15,7 +15,7 @@ const posts = await getPosts(5)
         return (
           <li>
             <a href={`/post/${post.slug}/`} class="block rounded-3xl">
-              <h2 class="font-cartridgerough text-tn-orange hover:text-tn-yellow text-lg">
+              <h2 class="font-cartridgerough text-tn-orange/80 hover:text-tn-orange text-lg">
                 {category && <CategoryInline>{category}:</CategoryInline>}{' '}
                 {title}
               </h2>
