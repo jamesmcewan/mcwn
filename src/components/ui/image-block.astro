@@ -1,0 +1,11 @@
+---
+import Block from './block.astro'
+
+const { src, alt } = Astro.props
+---
+
+<Block>
+  <div class="w-full">
+    <img src={src} alt={alt} class="rounded-3xl" />
+  </div>
+</Block>

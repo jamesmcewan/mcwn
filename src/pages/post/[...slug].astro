@@ -1,8 +1,8 @@
 ---
 import { getCollection } from 'astro:content'
 import PostLayout from '@/layouts/post-layout.astro'
-import Prose from '@/components/ui/prose.astro'
 import Back from '@/components/ui/back.astro'
+import Article from '@/components/ui/article.astro'
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts')
@@ -19,8 +19,8 @@ const { title, category, description } = post.data
 ---
 
 <PostLayout {description} {title}>
-  <Prose element="article" {title} {category}>
+  <Article {title} {category}>
     <Content />
-  </Prose>
+  </Article>
   <Back />
 </PostLayout>

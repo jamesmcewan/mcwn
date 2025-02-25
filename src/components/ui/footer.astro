@@ -1,10 +1,11 @@
 ---
 import siteConfig from '@/data/site-config'
+import Block from './block.astro'
 ---
 
-<footer class="my-12">
-  <div class="flex gap-6">
-    <div class="font-rethink text-tn-text text-lg font-light">
+<Block>
+  <footer>
+    <p class="font-rethink text-tn-text text-md font-light">
       &copy; 2022 {siteConfig.author}.<br />Built with {
         siteConfig.tooling.map((tool) => (
           <span>
@@ -15,9 +16,6 @@ import siteConfig from '@/data/site-config'
           </span>
         ))
       } and &nbsp;💛
-    </div>
-    <div class="max-w-14">
-      <img src="/images/mighty.webp" alt="Mighty" />
-    </div>
-  </div>
-</footer>
+    </p>
+  </footer>
+</Block>

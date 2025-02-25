@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content'
 import PageLayout from '@/layouts/page-layout.astro'
+import Main from '@/components/ui/main.astro'
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages')
@@ -22,5 +23,7 @@ const { title, description } = page.data
 ---
 
 <PageLayout {description} {title}>
-  <Content />
+  <Main>
+    <Content />
+  </Main>
 </PageLayout>
