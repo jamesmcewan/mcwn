@@ -16,9 +16,10 @@ export async function getStaticPaths() {
 const { post } = Astro.props
 const { Content } = await post.render()
 const { title, category, description } = post.data
+const url = `${import.meta.env.SITE}post/${post.slug}`
 ---
 
-<PostLayout {description} {title}>
+<PostLayout {description} {title} {url}>
   <ArticleBlock {title} {category}>
     <Content />
   </ArticleBlock>

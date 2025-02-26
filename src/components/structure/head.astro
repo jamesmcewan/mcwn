@@ -3,11 +3,21 @@ import siteConfig from '@/data/site-config'
 import Meta from '@/components/structure/meta.astro'
 import Styles from '@/components/structure/styles.astro'
 import Favicons from '@/components/structure/favicons.astro'
+import Rss from '@/components/structure/rss.astro'
+import OpenGraph from '@/components/structure/open-graph.astro'
 
-const { title } = Astro.props
+interface Props {
+  title: string
+  description: string
+  url: string
+}
+
+const { title, description, url } = Astro.props
 ---
 
-<Favicons favicons={siteConfig.favicons} appletouch={siteConfig.appletouch} />
+<Favicons />
 <Styles />
-<Meta description={siteConfig.description} />
+<Meta {description} />
+<OpenGraph {title} {description} {url} />
+<Rss />
 <title>{title} - {siteConfig.title}</title>

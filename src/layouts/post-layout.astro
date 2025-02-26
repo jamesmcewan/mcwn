@@ -5,10 +5,10 @@ import FooterBlock from '@/components/block/footer-block.astro'
 import GridBlock from '@/components/block/grid-block.astro'
 import WrapperBlock from '@/components/block/wrapper-block.astro'
 
-const { title } = Astro.props
+const { title, description, url } = Astro.props
 ---
 
-<Body {title}>
+<Body {title} {description} {url}>
   <WrapperBlock>
     <GridBlock>
       <MightyDinosaurBlock />

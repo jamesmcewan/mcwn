@@ -8,6 +8,7 @@ export interface SiteConfig {
   languageCode: string
   title: string
   author: string
+  image: string
   subtitle: string
   description: string
   favicons: number[]
@@ -22,7 +23,7 @@ export interface SiteConfig {
 const siteConfig: SiteConfig = {
   baseURL: 'https://mightydinosaur.dev/',
   languageCode: 'en-gb',
-  title: 'mightydinosaur.dev',
+  title: 'Mighty Dinosaur',
   author: 'James McEwan',
   subtitle: 'James McEwan is a mighty dinosaur',
   description:
@@ -30,6 +31,7 @@ const siteConfig: SiteConfig = {
   favicons: [16, 32, 96, 128, 196],
   appletouch: [57, 60, 72, 76, 114, 120, 144, 152, 167, 180],
   android: [192, 512],
+  image: '/images/mighty.webp',
   pages: [
     {
       name: 'Uses',

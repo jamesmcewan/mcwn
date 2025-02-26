@@ -1,10 +1,7 @@
 ---
-export interface Props {
-  favicons: number[]
-  appletouch: number[]
-}
+import siteConfig from '@/data/site-config'
 
-const { favicons, appletouch } = Astro.props
+const { appletouch, favicons } = siteConfig
 ---
 
 {

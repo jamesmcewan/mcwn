@@ -7,10 +7,10 @@ import DecorativeBlock from '@/components/block/decorative-block.astro'
 import ColumnBlock from '@/components/block/column-block.astro'
 import WrapperBlock from '@/components/block/wrapper-block.astro'
 
-const { title, decoration } = Astro.props
+const { title, decoration, description, url } = Astro.props
 ---
 
-<Body {title}>
+<Body {title} {description} {url}>
   <WrapperBlock full>
     <GridBlock extendClass="md:grid-cols-3">
       <ColumnBlock two>

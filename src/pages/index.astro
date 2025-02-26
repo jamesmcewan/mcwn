@@ -7,10 +7,10 @@ import MakerBlock from '@/components/block/maker-block.astro'
 import ElsewhereBlock from '@/components/block/elsewhere-block.astro'
 import getPage from '@/data/get-page'
 
-const { description, title, Content, decoration } = await getPage('index')
+const { description, title, Content, decoration, url } = await getPage('index')
 ---
 
-<PageLayout {description} {title} {decoration}>
+<PageLayout {description} {title} {decoration} {url}>
   <GridBlock>
     <MainBlock {title}>
       <Content />

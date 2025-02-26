@@ -3,12 +3,18 @@ import { ClientRouter } from 'astro:transitions'
 import Head from '@/components/structure/head.astro'
 import '@/styles/global.css'
 
-const { title } = Astro.props
+interface Props {
+  title: string
+  description: string
+  url: string
+}
+
+const { title, description, url } = Astro.props
 ---
 
 <html lang="en">
   <head>
-    <Head {title} />
+    <Head {title} {description} {url} />
     <ClientRouter />
   </head>
   <body class="from-tn-crust to-tn-mantle bg-linear-to-b">

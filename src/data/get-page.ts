@@ -5,6 +5,7 @@ interface PageData {
   title: string
   description: string
   decoration?: string
+  permalink: string
 }
 
 interface PageResult {
@@ -12,6 +13,7 @@ interface PageResult {
   description: string
   Content: any
   decoration?: string
+  url: string
 }
 
 async function getPage(page: string): Promise<PageResult> {
@@ -26,9 +28,11 @@ async function getPage(page: string): Promise<PageResult> {
   }
 
   const { Content } = await contentPage.render()
-  const { title, description, decoration } = contentPage.data as PageData
+  const { title, description, decoration, permalink } =
+    contentPage.data as PageData
+  const url = `${import.meta.env.SITE}${permalink.replace('/', '')}`
 
-  return { title, description, Content, decoration }
+  return { title, description, Content, decoration, url }
 }
 
 export default getPage
