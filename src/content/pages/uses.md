@@ -1,5 +1,5 @@
 ---
-title: Uses
+title: Things I like to use
 permalink: /uses
 lastmod: 2022-06-24T16:52:12.234Z
 type: default
@@ -7,8 +7,6 @@ description: Things I use
 decoration: ['james', 'mighty']
 date: 2022-05-17T23:10:18.811Z
 ---
-
-# Things I like to use
 
 ## Setup
 

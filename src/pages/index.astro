@@ -12,7 +12,7 @@ const { description, title, Content, decoration } = await getPage('index')
 
 <PageLayout {description} {title} {decoration}>
   <GridBlock>
-    <MainBlock>
+    <MainBlock {title}>
       <Content />
     </MainBlock>
     <RecentPostsBlock />
